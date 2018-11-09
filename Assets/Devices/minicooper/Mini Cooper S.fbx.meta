@@ -1,0 +1,212 @@
+fileFormatVersion: 2
+guid: 5c9f4ada6ecdb044c977633fd2b1d395
+timeCreated: 1518000150
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: door001
+    100002: door_02
+    100004: front_bumper
+    100006: Front_Glass
+    100008: front_hood
+    100010: front_window
+    100012: front_window001
+    100014: headlight
+    100016: interior
+    100018: main_hull
+    100020: //RootNode
+    100022: Object011
+    100024: rear_bumper
+    100026: rear_hood
+    100028: Rear_Side_Window
+    100030: rear_window
+    100032: spoiler
+    100034: Tyre_01
+    100036: Tyre_02
+    100038: Tyre_03
+    100040: Tyre_04
+    400000: door001
+    400002: door_02
+    400004: front_bumper
+    400006: Front_Glass
+    400008: front_hood
+    400010: front_window
+    400012: front_window001
+    400014: headlight
+    400016: interior
+    400018: main_hull
+    400020: //RootNode
+    400022: Object011
+    400024: rear_bumper
+    400026: rear_hood
+    400028: Rear_Side_Window
+    400030: rear_window
+    400032: spoiler
+    400034: Tyre_01
+    400036: Tyre_02
+    400038: Tyre_03
+    400040: Tyre_04
+    2300000: door001
+    2300002: door_02
+    2300004: front_bumper
+    2300006: Front_Glass
+    2300008: front_hood
+    2300010: front_window
+    2300012: front_window001
+    2300014: headlight
+    2300016: interior
+    2300018: main_hull
+    2300020: Object011
+    2300022: rear_bumper
+    2300024: rear_hood
+    2300026: Rear_Side_Window
+    2300028: rear_window
+    2300030: spoiler
+    2300032: Tyre_01
+    2300034: Tyre_02
+    2300036: Tyre_03
+    2300038: Tyre_04
+    3300000: door001
+    3300002: door_02
+    3300004: front_bumper
+    3300006: Front_Glass
+    3300008: front_hood
+    3300010: front_window
+    3300012: front_window001
+    3300014: headlight
+    3300016: interior
+    3300018: main_hull
+    3300020: Object011
+    3300022: rear_bumper
+    3300024: rear_hood
+    3300026: Rear_Side_Window
+    3300028: rear_window
+    3300030: spoiler
+    3300032: Tyre_01
+    3300034: Tyre_02
+    3300036: Tyre_03
+    3300038: Tyre_04
+    4300000: main_hull
+    4300002: interior
+    4300004: Tyre_01
+    4300006: door_02
+    4300008: front_bumper
+    4300010: rear_bumper
+    4300012: front_hood
+    4300014: rear_hood
+    4300016: headlight
+    4300018: rear_window
+    4300020: front_window
+    4300022: door001
+    4300024: front_window001
+    4300026: spoiler
+    4300028: Object011
+    4300030: Rear_Side_Window
+    4300032: Tyre_02
+    4300034: Tyre_03
+    4300036: Tyre_04
+    4300038: Front_Glass
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Car
+    second: {fileID: 2100000, guid: ce7384102a9a4eb4bbd3eb8a4ff08d7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Disk_Brake
+    second: {fileID: 2100000, guid: 568839254cfc70148af44fd3430a673b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior
+    second: {fileID: 2100000, guid: 7f101b8f1066a1843abe31c1311c8532, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rim
+    second: {fileID: 2100000, guid: 7432ef7f95fc97248bd848cff91414ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tread
+    second: {fileID: 2100000, guid: 707b0840bf9ab7b4790e598d081e2e96, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

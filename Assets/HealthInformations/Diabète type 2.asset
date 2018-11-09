@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: def74c463f9dc4ea1926ce3b9bdf9a11, type: 3}
+  m_Name: "Diab\xE8te type 2"
+  m_EditorClassIdentifier: 
+  name: "Diab\xE8te type 2"
+  description: "Le diab\xE8te de type 2 se caract\xE9rise par une hyperglyc\xE9mie."
+  management: "Des m\xE9dicaments administr\xE9s par voie orale peuvent \xEAtre prescrits,
+    ou des injections d'insuline."
+  healthP:
+  - {fileID: 11400000, guid: c5ed6b079cdae4192a2ccc3eefc8351a, type: 2}
+  - {fileID: 11400000, guid: 3dfedd42306dd42deb1cf4fc0a3b5ca1, type: 2}
+  homeP: []

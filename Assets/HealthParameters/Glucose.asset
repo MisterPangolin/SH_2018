@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 726b47d7dd737445e93c0519e50adddf, type: 3}
+  m_Name: Glucose
+  m_EditorClassIdentifier: 
+  name: Glucose
+  description: "La mesure de la glyc\xE9mie peut s'effectuer facilement \xE0 la maison,
+    en pr\xE9levant une goutte de sang au bout du doigt."
+  indications: "Le taux de glucose est un param\xE8tre \xE0 suivre en cas de diab\xE8te."
+  measure: g/L
+  decimals: 2
+  minValue: 0.4
+  maxValue: 2.7
+  isABool: 0
+  reference: 1
+  randomLaw: 2
+  variationValue: 0.2
+  daysRate: 0
+  targetValue: 0.7
+  criticalValue: 2

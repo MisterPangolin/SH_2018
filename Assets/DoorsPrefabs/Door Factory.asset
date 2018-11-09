@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1992c24d488b44322a7b9017208f6c31, type: 3}
+  m_Name: Door Factory
+  m_EditorClassIdentifier: 
+  prefabs:
+  - {fileID: 114548584601443496, guid: 7ec3f072fd1e94bb2a8ed0b05cb185c8, type: 2}
+  - {fileID: 114299681077299288, guid: 6fbbed84eef304f89abd43c7eb181081, type: 2}
+  - {fileID: 114010596218932814, guid: 3023988aef6964117b230a1546e74607, type: 2}
+  - {fileID: 114642415031687438, guid: a69f5f8fb3cf4419eaff30ead7505076, type: 2}
+  - {fileID: 114730350203426860, guid: f15c9ac1d53a2456dbfb6dab50b5f936, type: 2}
+  - {fileID: 114117865613511304, guid: 93e4b5db481dc408fa514d889fefa40a, type: 2}
+  - {fileID: 114181765385317092, guid: ba11b36649284465ba76b10f68da77b4, type: 2}
+  - {fileID: 114865395247629574, guid: c491c9cae9b7b4a259f6047bb49526cc, type: 2}
+  - {fileID: 114963493755751076, guid: adabcd65ffa0d484781c95fdfae92e6a, type: 2}
+  - {fileID: 114058752850211906, guid: d8d40ad5ffb7c46899c6fdb3c81638c2, type: 2}
+  - {fileID: 114058752850211906, guid: 183e27e8a5c784162976e5162c09820a, type: 2}

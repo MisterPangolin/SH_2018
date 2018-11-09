@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: def74c463f9dc4ea1926ce3b9bdf9a11, type: 3}
+  m_Name: Maladie 4
+  m_EditorClassIdentifier: 
+  name: Maladie 4
+  description: Description maladie 4
+  management: Suivi maladie 4
+  healthP:
+  - {fileID: 11400000, guid: 21dd1385b0a04425a98fc44299cb0957, type: 2}
+  homeP: []

@@ -3,13 +3,14 @@
 --- !u!1 &147698
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 460408}
   - component: {fileID: 3364544}
   - component: {fileID: 2351910}
+  - component: {fileID: 114878664648186516}
   m_Layer: 0
   m_Name: A_Lightswitch
   m_TagString: Untagged
@@ -20,7 +21,7 @@ GameObject:
 --- !u!4 &460408
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 147698}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -33,7 +34,7 @@ Transform:
 --- !u!23 &2351910
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 147698}
   m_Enabled: 1
@@ -43,6 +44,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: f07ba428f97ee6f4f9cec2648be81b0d, type: 2}
   m_StaticBatchInfo:
@@ -67,7 +69,7 @@ MeshRenderer:
 --- !u!33 &3364544
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 147698}
   m_Mesh: {fileID: 4300000, guid: 739364c7d238a6d42ad7975552cbd021, type: 3}
@@ -79,6 +81,38 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 147698}
-  m_IsPrefabParent: 1
+  m_IsPrefabAsset: 1
+--- !u!114 &114878664648186516
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 179
+    i1: 30
+    i2: 95
+    i3: 63
+    i4: 134
+    i5: 52
+    i6: 45
+    i7: 212
+    i8: 184
+    i9: 201
+    i10: 245
+    i11: 57
+    i12: 195
+    i13: 74
+    i14: 18
+    i15: 241
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

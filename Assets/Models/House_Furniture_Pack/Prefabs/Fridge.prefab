@@ -3,9 +3,9 @@
 --- !u!1 &142732
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 480810}
   - component: {fileID: 3300104}
@@ -21,14 +21,15 @@ GameObject:
 --- !u!1 &180942
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 441966}
   - component: {fileID: 3324212}
   - component: {fileID: 2389526}
   - component: {fileID: 6550668}
+  - component: {fileID: 114820894496477136}
   m_Layer: 0
   m_Name: Fridge
   m_TagString: Untagged
@@ -39,7 +40,7 @@ GameObject:
 --- !u!4 &441966
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 180942}
   m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
@@ -53,7 +54,7 @@ Transform:
 --- !u!4 &480810
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 142732}
   m_LocalRotation: {x: 0, y: 0, z: 0.00000008742278, w: 1}
@@ -66,7 +67,7 @@ Transform:
 --- !u!23 &2307540
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 142732}
   m_Enabled: 1
@@ -76,6 +77,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 117c232d92f8fe440ae6572b370af248, type: 2}
   - {fileID: 2100000, guid: da15a5d37b69c9949be5861fdd641b95, type: 2}
@@ -101,7 +103,7 @@ MeshRenderer:
 --- !u!23 &2389526
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 180942}
   m_Enabled: 1
@@ -111,6 +113,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 117c232d92f8fe440ae6572b370af248, type: 2}
   - {fileID: 2100000, guid: da15a5d37b69c9949be5861fdd641b95, type: 2}
@@ -136,21 +139,21 @@ MeshRenderer:
 --- !u!33 &3300104
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 142732}
   m_Mesh: {fileID: 4300010, guid: 9c302aa40c2c70f40809ca4407400195, type: 3}
 --- !u!33 &3324212
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 180942}
   m_Mesh: {fileID: 4300008, guid: 9c302aa40c2c70f40809ca4407400195, type: 3}
 --- !u!65 &6502394
 BoxCollider:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 142732}
   m_Material: {fileID: 0}
@@ -162,7 +165,7 @@ BoxCollider:
 --- !u!65 &6550668
 BoxCollider:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 180942}
   m_Material: {fileID: 0}
@@ -179,6 +182,38 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 180942}
-  m_IsPrefabParent: 1
+  m_IsPrefabAsset: 1
+--- !u!114 &114820894496477136
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 136
+    i1: 88
+    i2: 156
+    i3: 204
+    i4: 244
+    i5: 184
+    i6: 249
+    i7: 100
+    i8: 72
+    i9: 151
+    i10: 239
+    i11: 92
+    i12: 232
+    i13: 94
+    i14: 164
+    i15: 145
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

@@ -38,7 +38,7 @@ public class WallsManager : MonoBehaviour {
 	/// <summary>
 	/// Triangule le mur dans la direction donnée.
 	/// </summary>
-	public void AddWall(Wall wall, CompassDirection direction)
+	public void CmdAddWall(Wall wall, CompassDirection direction)
 	{
 		Vector3 v1, v2, v3, v4;
 
@@ -107,7 +107,7 @@ public class WallsManager : MonoBehaviour {
 	/// Cet espace correspond au point sur lequel se base les murs.
 	/// La triangulation de ce point dépend de l'existence ou non des murs attachés à ce point.
 	/// </summary>
-	public void AddWallWedge(Dot dot)
+	public void CmdAddWallWedge(Dot dot)
 	{
 		Wall wall;
 		float elevation = 0f;

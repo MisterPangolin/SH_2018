@@ -3,15 +3,16 @@
 --- !u!1 &158148
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 488260}
   - component: {fileID: 3396902}
   - component: {fileID: 2361820}
   - component: {fileID: 6529704}
   - component: {fileID: 6509824}
+  - component: {fileID: 114763640206147532}
   m_Layer: 0
   m_Name: Curtains_House_A
   m_TagString: Untagged
@@ -22,7 +23,7 @@ GameObject:
 --- !u!4 &488260
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158148}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -35,7 +36,7 @@ Transform:
 --- !u!23 &2361820
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158148}
   m_Enabled: 1
@@ -45,6 +46,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: e1966566c5d677e4b975006f07f4e8a5, type: 2}
   m_StaticBatchInfo:
@@ -69,14 +71,14 @@ MeshRenderer:
 --- !u!33 &3396902
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158148}
   m_Mesh: {fileID: 4300000, guid: 5a037588a0551744aa812d27ebe023c1, type: 3}
 --- !u!65 &6509824
 BoxCollider:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158148}
   m_Material: {fileID: 0}
@@ -88,7 +90,7 @@ BoxCollider:
 --- !u!65 &6529704
 BoxCollider:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158148}
   m_Material: {fileID: 0}
@@ -105,6 +107,38 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 158148}
-  m_IsPrefabParent: 1
+  m_IsPrefabAsset: 1
+--- !u!114 &114763640206147532
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 158148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 115
+    i1: 185
+    i2: 84
+    i3: 27
+    i4: 37
+    i5: 107
+    i6: 169
+    i7: 116
+    i8: 120
+    i9: 86
+    i10: 14
+    i11: 149
+    i12: 36
+    i13: 205
+    i14: 61
+    i15: 159
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

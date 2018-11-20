@@ -3,9 +3,9 @@
 --- !u!1 &126636
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 402504}
   - component: {fileID: 3342090}
@@ -20,9 +20,9 @@ GameObject:
 --- !u!1 &133516
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 427072}
   - component: {fileID: 3335434}
@@ -37,11 +37,12 @@ GameObject:
 --- !u!1 &184210
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 435836}
+  - component: {fileID: 114625524001805878}
   m_Layer: 0
   m_Name: Doors terrace
   m_TagString: Untagged
@@ -52,9 +53,9 @@ GameObject:
 --- !u!1 &188046
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 419846}
   - component: {fileID: 3378608}
@@ -69,7 +70,7 @@ GameObject:
 --- !u!4 &402504
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 126636}
   m_LocalRotation: {x: 0.00000007131049, y: 0.48339698, z: -0.000000039377685, w: 0.87540126}
@@ -82,7 +83,7 @@ Transform:
 --- !u!4 &419846
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188046}
   m_LocalRotation: {x: 0.000000057601167, y: 0.7071067, z: -0.000000057601156, w: 0.7071068}
@@ -95,7 +96,7 @@ Transform:
 --- !u!4 &427072
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 133516}
   m_LocalRotation: {x: 0.02305883, y: 0.000000005960855, z: 0.9997341, w: -1.3748697e-10}
@@ -108,7 +109,7 @@ Transform:
 --- !u!4 &435836
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 184210}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -124,7 +125,7 @@ Transform:
 --- !u!23 &2317898
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 133516}
   m_Enabled: 1
@@ -134,6 +135,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 0f3b69be0c311804abd7444d0160ec22, type: 2}
   - {fileID: 2100000, guid: 24df4f35c70bd4745bc5c994387fe8ac, type: 2}
@@ -159,7 +161,7 @@ MeshRenderer:
 --- !u!23 &2353160
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188046}
   m_Enabled: 1
@@ -169,6 +171,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 0f3b69be0c311804abd7444d0160ec22, type: 2}
   m_StaticBatchInfo:
@@ -193,7 +196,7 @@ MeshRenderer:
 --- !u!23 &2367138
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 126636}
   m_Enabled: 1
@@ -203,6 +206,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 0f3b69be0c311804abd7444d0160ec22, type: 2}
   - {fileID: 2100000, guid: 24df4f35c70bd4745bc5c994387fe8ac, type: 2}
@@ -228,21 +232,21 @@ MeshRenderer:
 --- !u!33 &3335434
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 133516}
   m_Mesh: {fileID: 4300004, guid: 535670fd119aba344b8c8ed8c02b9631, type: 3}
 --- !u!33 &3342090
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 126636}
   m_Mesh: {fileID: 4300002, guid: 535670fd119aba344b8c8ed8c02b9631, type: 3}
 --- !u!33 &3378608
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188046}
   m_Mesh: {fileID: 4300000, guid: 535670fd119aba344b8c8ed8c02b9631, type: 3}
@@ -254,6 +258,38 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 184210}
-  m_IsPrefabParent: 1
+  m_IsPrefabAsset: 1
+--- !u!114 &114625524001805878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 128
+    i1: 108
+    i2: 119
+    i3: 106
+    i4: 153
+    i5: 124
+    i6: 106
+    i7: 228
+    i8: 90
+    i9: 175
+    i10: 148
+    i11: 157
+    i12: 85
+    i13: 250
+    i14: 208
+    i15: 94
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

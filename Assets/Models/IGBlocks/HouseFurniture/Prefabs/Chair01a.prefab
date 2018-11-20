@@ -3,14 +3,15 @@
 --- !u!1 &125140
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 479290}
   - component: {fileID: 3375146}
   - component: {fileID: 2395820}
   - component: {fileID: 6409340}
+  - component: {fileID: 114249988828215896}
   m_Layer: 0
   m_Name: Chair01a
   m_TagString: Untagged
@@ -21,7 +22,7 @@ GameObject:
 --- !u!4 &479290
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 125140}
   m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
@@ -34,7 +35,7 @@ Transform:
 --- !u!23 &2395820
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 125140}
   m_Enabled: 1
@@ -44,6 +45,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 7ccadda0fccc0884f84db42bc2a08100, type: 2}
   m_StaticBatchInfo:
@@ -68,22 +70,22 @@ MeshRenderer:
 --- !u!33 &3375146
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 125140}
   m_Mesh: {fileID: 4300000, guid: acdd988ac200ecf4aad5dece192b67a6, type: 3}
 --- !u!64 &6409340
 MeshCollider:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 125140}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Convex: 0
-  m_InflateMesh: 0
+  m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: acdd988ac200ecf4aad5dece192b67a6, type: 3}
 --- !u!1001 &100100000
@@ -94,6 +96,38 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 125140}
-  m_IsPrefabParent: 1
+  m_IsPrefabAsset: 1
+--- !u!114 &114249988828215896
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 178
+    i1: 221
+    i2: 236
+    i3: 108
+    i4: 200
+    i5: 89
+    i6: 215
+    i7: 116
+    i8: 234
+    i9: 198
+    i10: 106
+    i11: 38
+    i12: 178
+    i13: 166
+    i14: 202
+    i15: 65
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

@@ -3,13 +3,14 @@
 --- !u!1 &164584
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
+  serializedVersion: 6
   m_Component:
   - component: {fileID: 481702}
   - component: {fileID: 3327398}
   - component: {fileID: 2315918}
+  - component: {fileID: 114897687003174280}
   m_Layer: 0
   m_Name: Controller
   m_TagString: Untagged
@@ -20,7 +21,7 @@ GameObject:
 --- !u!4 &481702
 Transform:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164584}
   m_LocalRotation: {x: 0.25990316, y: 0.00000007866095, z: -0.9656347, w: 0.0000000211718}
@@ -33,7 +34,7 @@ Transform:
 --- !u!23 &2315918
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164584}
   m_Enabled: 1
@@ -43,6 +44,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 5040f3ada223dfe40bd98d6483c5feb2, type: 2}
   m_StaticBatchInfo:
@@ -67,7 +69,7 @@ MeshRenderer:
 --- !u!33 &3327398
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 164584}
   m_Mesh: {fileID: 4300000, guid: e1a31a23e64787d4cac7172c78d1f02d, type: 3}
@@ -79,6 +81,38 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 0}
+  m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 164584}
-  m_IsPrefabParent: 1
+  m_IsPrefabAsset: 1
+--- !u!114 &114897687003174280
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 164584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 99
+    i1: 108
+    i2: 236
+    i3: 103
+    i4: 161
+    i5: 243
+    i6: 241
+    i7: 84
+    i8: 56
+    i9: 127
+    i10: 147
+    i11: 199
+    i12: 182
+    i13: 65
+    i14: 161
+    i15: 224
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

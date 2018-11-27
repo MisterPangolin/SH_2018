@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23963895925016454}
   - component: {fileID: 65533370716598226}
   - component: {fileID: 114734612249340258}
+  - component: {fileID: 114770471918422608}
   m_Layer: 0
   m_Name: Painting_Photo_A
   m_TagString: Untagged
@@ -120,3 +121,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 6
+--- !u!114 &114770471918422608
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1150808264309364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 240
+    i1: 94
+    i2: 182
+    i3: 236
+    i4: 14
+    i5: 65
+    i6: 212
+    i7: 141
+    i8: 138
+    i9: 166
+    i10: 254
+    i11: 215
+    i12: 208
+    i13: 44
+    i14: 26
+    i15: 219
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

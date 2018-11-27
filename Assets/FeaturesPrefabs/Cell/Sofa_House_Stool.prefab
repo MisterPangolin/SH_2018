@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23021161003817214}
   - component: {fileID: 65702565729192754}
   - component: {fileID: 114248212029076374}
+  - component: {fileID: 114927722347155044}
   m_Layer: 0
   m_Name: Sofa_House_Stool
   m_TagString: Untagged
@@ -120,3 +121,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 0
+--- !u!114 &114927722347155044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1217651596968622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 67
+    i1: 103
+    i2: 192
+    i3: 115
+    i4: 69
+    i5: 157
+    i6: 20
+    i7: 165
+    i8: 91
+    i9: 139
+    i10: 148
+    i11: 112
+    i12: 28
+    i13: 172
+    i14: 235
+    i15: 191
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

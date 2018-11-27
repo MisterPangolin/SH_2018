@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23683882428725836}
   - component: {fileID: 114478554013904304}
   - component: {fileID: 65356128004817106}
+  - component: {fileID: 114510639456957394}
   m_Layer: 0
   m_Name: picture 3
   m_TagString: Untagged
@@ -120,3 +121,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 6
+--- !u!114 &114510639456957394
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1908969557604606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 211
+    i1: 174
+    i2: 81
+    i3: 160
+    i4: 227
+    i5: 92
+    i6: 228
+    i7: 237
+    i8: 154
+    i9: 19
+    i10: 195
+    i11: 239
+    i12: 98
+    i13: 38
+    i14: 176
+    i15: 2
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

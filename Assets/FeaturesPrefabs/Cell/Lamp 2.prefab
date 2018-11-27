@@ -52,6 +52,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4864384886525932}
   - component: {fileID: 114472576253873912}
+  - component: {fileID: 114838443028892968}
   m_Layer: 0
   m_Name: Lamp 2
   m_TagString: Untagged
@@ -286,3 +287,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 4
+--- !u!114 &114838443028892968
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1756366056109130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 29
+    i1: 18
+    i2: 74
+    i3: 126
+    i4: 117
+    i5: 116
+    i6: 52
+    i7: 18
+    i8: 57
+    i9: 86
+    i10: 142
+    i11: 48
+    i12: 179
+    i13: 158
+    i14: 142
+    i15: 41
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

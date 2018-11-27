@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 23154518799150276}
   - component: {fileID: 65699997735657324}
   - component: {fileID: 114610207250055356}
+  - component: {fileID: 114546477649177260}
   m_Layer: 0
   m_Name: SideTable_A
   m_TagString: Untagged
@@ -213,6 +214,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.8519723, y: 0.7023442, z: 0.36747265}
   m_Center: {x: -0, y: 0.34997332, z: -0}
+--- !u!114 &114546477649177260
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1978505566450470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 94
+    i1: 103
+    i2: 62
+    i3: 79
+    i4: 19
+    i5: 137
+    i6: 244
+    i7: 234
+    i8: 169
+    i9: 164
+    i10: 201
+    i11: 120
+    i12: 9
+    i13: 153
+    i14: 123
+    i15: 194
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114610207250055356
 MonoBehaviour:
   m_ObjectHideFlags: 1

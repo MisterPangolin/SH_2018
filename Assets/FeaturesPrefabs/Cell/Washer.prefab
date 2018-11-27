@@ -37,6 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4368441711869506}
   - component: {fileID: 114685688882734662}
+  - component: {fileID: 114603495451295946}
   m_Layer: 0
   m_Name: Washer
   m_TagString: Untagged
@@ -242,6 +243,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.7576925, y: 0.99268997, z: 0.5906116}
   m_Center: {x: 0.00034960112, y: 0.49617824, z: -0.023594916}
+--- !u!114 &114603495451295946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1731111177253978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 66
+    i1: 199
+    i2: 21
+    i3: 128
+    i4: 151
+    i5: 1
+    i6: 244
+    i7: 179
+    i8: 123
+    i9: 7
+    i10: 79
+    i11: 118
+    i12: 168
+    i13: 217
+    i14: 251
+    i15: 225
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114685688882734662
 MonoBehaviour:
   m_ObjectHideFlags: 1

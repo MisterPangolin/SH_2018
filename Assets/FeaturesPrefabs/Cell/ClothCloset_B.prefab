@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 23223518360426992}
   - component: {fileID: 65954317579893724}
   - component: {fileID: 114709175833815494}
+  - component: {fileID: 114575591352149604}
   m_Layer: 0
   m_Name: ClothCloset_B
   m_TagString: Untagged
@@ -243,6 +244,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1402147, y: 2.175034, z: 0.5727438}
   m_Center: {x: -0.00000008940699, y: 1.0823319, z: -0.00000007450582}
+--- !u!114 &114575591352149604
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1896386288391906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 219
+    i1: 236
+    i2: 18
+    i3: 196
+    i4: 40
+    i5: 207
+    i6: 180
+    i7: 44
+    i8: 249
+    i9: 123
+    i10: 21
+    i11: 124
+    i12: 140
+    i13: 177
+    i14: 110
+    i15: 175
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114709175833815494
 MonoBehaviour:
   m_ObjectHideFlags: 1

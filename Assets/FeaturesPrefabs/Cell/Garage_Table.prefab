@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23589978986628962}
   - component: {fileID: 114399403997839756}
   - component: {fileID: 65076233704334242}
+  - component: {fileID: 114542651651157212}
   m_Layer: 0
   m_Name: Garage_Table
   m_TagString: Untagged
@@ -120,3 +121,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 0
+--- !u!114 &114542651651157212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1394198556475542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 184
+    i1: 63
+    i2: 172
+    i3: 157
+    i4: 253
+    i5: 218
+    i6: 196
+    i7: 234
+    i8: 89
+    i9: 125
+    i10: 41
+    i11: 137
+    i12: 161
+    i13: 36
+    i14: 112
+    i15: 227
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

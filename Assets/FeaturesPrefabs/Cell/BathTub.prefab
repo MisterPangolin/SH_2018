@@ -38,6 +38,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4751074222223250}
   - component: {fileID: 114007466760811336}
+  - component: {fileID: 114243707260387062}
   m_Layer: 0
   m_Name: BathTub
   m_TagString: Untagged
@@ -501,3 +502,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 2
+--- !u!114 &114243707260387062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1131480918328140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 101
+    i1: 85
+    i2: 190
+    i3: 181
+    i4: 74
+    i5: 29
+    i6: 148
+    i7: 116
+    i8: 57
+    i9: 250
+    i10: 92
+    i11: 27
+    i12: 115
+    i13: 249
+    i14: 255
+    i15: 234
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

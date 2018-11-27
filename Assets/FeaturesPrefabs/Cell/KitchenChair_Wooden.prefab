@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 65570431146424140}
   - component: {fileID: 65389975049950212}
   - component: {fileID: 114782994873962224}
+  - component: {fileID: 114825414865700910}
   m_Layer: 0
   m_Name: KitchenChair_Wooden
   m_TagString: Untagged
@@ -133,3 +134,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 1
+--- !u!114 &114825414865700910
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1979050812791454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 249
+    i1: 105
+    i2: 108
+    i3: 188
+    i4: 95
+    i5: 8
+    i6: 196
+    i7: 242
+    i8: 107
+    i9: 156
+    i10: 241
+    i11: 151
+    i12: 26
+    i13: 165
+    i14: 34
+    i15: 2
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

@@ -72,6 +72,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4859637376139716}
   - component: {fileID: 114247632005361934}
+  - component: {fileID: 114435534977104586}
   m_Layer: 0
   m_Name: toilet
   m_TagString: Untagged
@@ -295,3 +296,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 2
+--- !u!114 &114435534977104586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1629194618937824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 229
+    i1: 60
+    i2: 189
+    i3: 67
+    i4: 31
+    i5: 93
+    i6: 84
+    i7: 190
+    i8: 233
+    i9: 54
+    i10: 39
+    i11: 247
+    i12: 103
+    i13: 197
+    i14: 35
+    i15: 58
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

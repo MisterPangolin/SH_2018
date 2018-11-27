@@ -38,6 +38,7 @@ GameObject:
   - component: {fileID: 4961263606016306}
   - component: {fileID: 114569917823398220}
   - component: {fileID: 65975522947883992}
+  - component: {fileID: 114368280310517000}
   m_Layer: 0
   m_Name: Bath03
   m_TagString: Untagged
@@ -199,6 +200,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2871876, y: 0.9042015, z: 3.1890504}
   m_Center: {x: 0.011045814, y: 0.43109417, z: 0.09037364}
+--- !u!114 &114368280310517000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1645688359515912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 236
+    i1: 73
+    i2: 74
+    i3: 133
+    i4: 45
+    i5: 109
+    i6: 116
+    i7: 189
+    i8: 8
+    i9: 43
+    i10: 174
+    i11: 243
+    i12: 224
+    i13: 109
+    i14: 235
+    i15: 230
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114569917823398220
 MonoBehaviour:
   m_ObjectHideFlags: 1

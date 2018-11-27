@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 65674747361436402}
   - component: {fileID: 65284196023982546}
   - component: {fileID: 114303735336887380}
+  - component: {fileID: 114644286286400252}
   m_Layer: 8
   m_Name: Lamp_Stand
   m_TagString: Untagged
@@ -267,3 +268,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 4
+--- !u!114 &114644286286400252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1270392033408656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 3
+    i1: 68
+    i2: 13
+    i3: 29
+    i4: 73
+    i5: 34
+    i6: 68
+    i7: 91
+    i8: 43
+    i9: 180
+    i10: 198
+    i11: 145
+    i12: 243
+    i13: 124
+    i14: 61
+    i15: 251
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

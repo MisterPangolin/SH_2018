@@ -37,6 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4685454337788818}
   - component: {fileID: 114429104890864836}
+  - component: {fileID: 114268733116018766}
   m_Layer: 0
   m_Name: TV
   m_TagString: Untagged
@@ -199,6 +200,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4696393, y: 0.8481725, z: 0.00000014528632}
   m_Center: {x: 0.000008016825, y: 0.42371097, z: 0.04253579}
+--- !u!114 &114268733116018766
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1606343466355342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 85
+    i1: 242
+    i2: 73
+    i3: 121
+    i4: 159
+    i5: 42
+    i6: 228
+    i7: 158
+    i8: 169
+    i9: 49
+    i10: 208
+    i11: 250
+    i12: 52
+    i13: 202
+    i14: 10
+    i15: 153
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114429104890864836
 MonoBehaviour:
   m_ObjectHideFlags: 1

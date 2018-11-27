@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23643031176657740}
   - component: {fileID: 65251313053285020}
   - component: {fileID: 114641147376557282}
+  - component: {fileID: 114922746128329514}
   m_Layer: 0
   m_Name: Lamp_Wall_Fluorescent
   m_TagString: Untagged
@@ -120,3 +121,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 4
+--- !u!114 &114922746128329514
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1967597200144970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 225
+    i1: 93
+    i2: 232
+    i3: 31
+    i4: 93
+    i5: 52
+    i6: 164
+    i7: 50
+    i8: 123
+    i9: 120
+    i10: 137
+    i11: 219
+    i12: 186
+    i13: 125
+    i14: 220
+    i15: 49
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

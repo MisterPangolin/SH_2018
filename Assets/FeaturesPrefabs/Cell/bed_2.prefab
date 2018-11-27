@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33244276975414356}
   - component: {fileID: 23662346937598940}
   - component: {fileID: 114738703206768422}
+  - component: {fileID: 114907262603369770}
   m_Layer: 0
   m_Name: bed_2
   m_TagString: Untagged
@@ -107,3 +108,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 3
+--- !u!114 &114907262603369770
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1190703803950712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 59
+    i1: 158
+    i2: 189
+    i3: 53
+    i4: 108
+    i5: 78
+    i6: 148
+    i7: 57
+    i8: 250
+    i9: 231
+    i10: 10
+    i11: 85
+    i12: 206
+    i13: 117
+    i14: 246
+    i15: 207
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

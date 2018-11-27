@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23866747645559154}
   - component: {fileID: 114941461033449496}
   - component: {fileID: 65367151992983944}
+  - component: {fileID: 114364537626426072}
   m_Layer: 0
   m_Name: Carpet
   m_TagString: Floor
@@ -97,6 +98,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 19.047705, y: 30.047531, z: 0.18206361}
   m_Center: {x: -0.00009059906, y: 0, z: 0.089262635}
+--- !u!114 &114364537626426072
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1524220118416906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 65
+    i1: 193
+    i2: 96
+    i3: 1
+    i4: 152
+    i5: 120
+    i6: 4
+    i7: 213
+    i8: 154
+    i9: 109
+    i10: 21
+    i11: 233
+    i12: 196
+    i13: 142
+    i14: 47
+    i15: 69
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114941461033449496
 MonoBehaviour:
   m_ObjectHideFlags: 1

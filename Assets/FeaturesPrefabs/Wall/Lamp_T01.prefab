@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 23831246907800350}
   - component: {fileID: 64051147046284738}
   - component: {fileID: 114384224925170988}
+  - component: {fileID: 114118560943784812}
   m_Layer: 0
   m_Name: Lamp_T01
   m_TagString: Untagged
@@ -166,6 +167,38 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114118560943784812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1504021586174688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 77
+    i1: 66
+    i2: 200
+    i3: 79
+    i4: 106
+    i5: 159
+    i6: 68
+    i7: 242
+    i8: 25
+    i9: 113
+    i10: 104
+    i11: 194
+    i12: 19
+    i13: 15
+    i14: 109
+    i15: 169
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114384224925170988
 MonoBehaviour:
   m_ObjectHideFlags: 1

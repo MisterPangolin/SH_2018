@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33593358877919668}
   - component: {fileID: 23244248916929054}
   - component: {fileID: 114979182260513856}
+  - component: {fileID: 114552424070485788}
   m_Layer: 0
   m_Name: Fridge 1
   m_TagString: Untagged
@@ -85,6 +86,38 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1317750280975580}
   m_Mesh: {fileID: 4300000, guid: c6d1e115df0cbcb478952b529a804c6a, type: 3}
+--- !u!114 &114552424070485788
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1317750280975580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 124
+    i1: 46
+    i2: 194
+    i3: 1
+    i4: 172
+    i5: 192
+    i6: 132
+    i7: 102
+    i8: 202
+    i9: 201
+    i10: 147
+    i11: 58
+    i12: 83
+    i13: 95
+    i14: 29
+    i15: 183
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114979182260513856
 MonoBehaviour:
   m_ObjectHideFlags: 1

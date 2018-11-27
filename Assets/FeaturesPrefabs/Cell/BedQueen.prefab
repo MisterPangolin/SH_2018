@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 208438334558101530}
   - component: {fileID: 114365983017601652}
   - component: {fileID: 114778793169191838}
+  - component: {fileID: 114799919219920702}
   m_Layer: 0
   m_Name: BedQueen
   m_TagString: Untagged
@@ -138,7 +139,7 @@ MonoBehaviour:
   index: 0
   objectName: lit
   objectDescription: a
-  use: a
+  objectIndications: 
   colliders: []
   isDestroyed: 0
   cameraPlayer: {fileID: 0}
@@ -147,6 +148,38 @@ MonoBehaviour:
   homePIndex: 
   healthParameters: []
   healthPIndex: 
+--- !u!114 &114799919219920702
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023241785556130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 14
+    i1: 225
+    i2: 17
+    i3: 193
+    i4: 44
+    i5: 196
+    i6: 180
+    i7: 211
+    i8: 27
+    i9: 237
+    i10: 179
+    i11: 138
+    i12: 24
+    i13: 247
+    i14: 109
+    i15: 143
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!208 &208438334558101530
 NavMeshObstacle:
   m_ObjectHideFlags: 1

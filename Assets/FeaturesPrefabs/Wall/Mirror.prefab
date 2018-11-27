@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 65562113736967658}
   - component: {fileID: 114916249114584552}
   - component: {fileID: 114892989973307532}
+  - component: {fileID: 114038232606404594}
   m_Layer: 0
   m_Name: Mirror
   m_TagString: Untagged
@@ -128,6 +129,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.7, y: 0.7, z: 0.02000003}
   m_Center: {x: 0, y: 0, z: -9.313226e-10}
+--- !u!114 &114038232606404594
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1788198473015894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 147
+    i1: 157
+    i2: 11
+    i3: 200
+    i4: 135
+    i5: 251
+    i6: 244
+    i7: 243
+    i8: 56
+    i9: 208
+    i10: 29
+    i11: 63
+    i12: 112
+    i13: 79
+    i14: 42
+    i15: 97
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114892989973307532
 MonoBehaviour:
   m_ObjectHideFlags: 1

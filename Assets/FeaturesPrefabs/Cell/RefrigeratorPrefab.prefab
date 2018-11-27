@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114199039184912400}
   - component: {fileID: 114484893067514612}
   - component: {fileID: 114432822597458958}
+  - component: {fileID: 114661301544687344}
   m_Layer: 0
   m_Name: RefrigeratorPrefab
   m_TagString: Untagged
@@ -153,3 +154,35 @@ MonoBehaviour:
   eraseRenderer: 0
   originalLayer: 0
   originalMaterials: []
+--- !u!114 &114661301544687344
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1562137570746490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 62
+    i1: 92
+    i2: 135
+    i3: 245
+    i4: 219
+    i5: 51
+    i6: 148
+    i7: 138
+    i8: 73
+    i9: 91
+    i10: 189
+    i11: 88
+    i12: 172
+    i13: 253
+    i14: 199
+    i15: 63
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

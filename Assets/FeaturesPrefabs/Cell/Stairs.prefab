@@ -363,6 +363,7 @@ GameObject:
   - component: {fileID: 4365977295319860}
   - component: {fileID: 114256694789448450}
   - component: {fileID: 208333821845343066}
+  - component: {fileID: 114777523955214142}
   m_Layer: 0
   m_Name: Stairs
   m_TagString: Floor
@@ -1784,6 +1785,38 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 7
+--- !u!114 &114777523955214142
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1950218084711754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 72
+    i1: 28
+    i2: 146
+    i3: 73
+    i4: 248
+    i5: 235
+    i6: 20
+    i7: 191
+    i8: 9
+    i9: 26
+    i10: 61
+    i11: 94
+    i12: 163
+    i13: 224
+    i14: 183
+    i15: 188
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!208 &208333821845343066
 NavMeshObstacle:
   m_ObjectHideFlags: 1

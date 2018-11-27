@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 65935168503928410}
   - component: {fileID: 65613109077593832}
   - component: {fileID: 114540650227789954}
+  - component: {fileID: 114410095771963740}
   m_Layer: 0
   m_Name: LeatherChair
   m_TagString: Untagged
@@ -110,6 +111,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6, y: 0.45, z: 0.6}
   m_Center: {x: 0, y: 0.24, z: -0.008410946}
+--- !u!114 &114410095771963740
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1406831749165970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 15
+    i1: 145
+    i2: 195
+    i3: 239
+    i4: 167
+    i5: 237
+    i6: 20
+    i7: 197
+    i8: 169
+    i9: 70
+    i10: 64
+    i11: 80
+    i12: 236
+    i13: 142
+    i14: 183
+    i15: 117
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114540650227789954
 MonoBehaviour:
   m_ObjectHideFlags: 1

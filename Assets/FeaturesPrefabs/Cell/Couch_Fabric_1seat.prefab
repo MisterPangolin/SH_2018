@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 64236307010227110}
   - component: {fileID: 114479166422953066}
   - component: {fileID: 114019072042048454}
+  - component: {fileID: 114963083290436160}
   m_Layer: 0
   m_Name: Couch_Fabric_1seat
   m_TagString: Untagged
@@ -149,3 +150,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 0
+--- !u!114 &114963083290436160
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1755193947516296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 40
+    i1: 140
+    i2: 252
+    i3: 112
+    i4: 16
+    i5: 164
+    i6: 244
+    i7: 114
+    i8: 91
+    i9: 252
+    i10: 66
+    i11: 240
+    i12: 198
+    i13: 242
+    i14: 42
+    i15: 243
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

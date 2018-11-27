@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33095666098474776}
   - component: {fileID: 23574687243751826}
   - component: {fileID: 114337871908460674}
+  - component: {fileID: 114594081263189736}
   m_Layer: 0
   m_Name: phone
   m_TagString: Untagged
@@ -107,3 +108,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 0
+--- !u!114 &114594081263189736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1070166851661538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 111
+    i1: 129
+    i2: 248
+    i3: 234
+    i4: 224
+    i5: 18
+    i6: 4
+    i7: 67
+    i8: 154
+    i9: 153
+    i10: 90
+    i11: 202
+    i12: 246
+    i13: 184
+    i14: 0
+    i15: 93
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

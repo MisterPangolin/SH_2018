@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 65522069550884284}
   - component: {fileID: 65347727984122630}
   - component: {fileID: 114126661553584532}
+  - component: {fileID: 114470214612075672}
   m_Layer: 0
   m_Name: Sofa_House_Corner_L
   m_TagString: Untagged
@@ -219,3 +220,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 0
+--- !u!114 &114470214612075672
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1894049442277506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 85
+    i1: 24
+    i2: 106
+    i3: 93
+    i4: 98
+    i5: 124
+    i6: 20
+    i7: 255
+    i8: 170
+    i9: 234
+    i10: 166
+    i11: 37
+    i12: 200
+    i13: 11
+    i14: 134
+    i15: 172
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

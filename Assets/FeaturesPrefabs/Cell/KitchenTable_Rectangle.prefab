@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23599880900150156}
   - component: {fileID: 65715110129678438}
   - component: {fileID: 114642922406889120}
+  - component: {fileID: 114253943060382128}
   m_Layer: 0
   m_Name: KitchenTable_Rectangle
   m_TagString: Untagged
@@ -140,6 +141,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.96741486, y: 0.7151162, z: 1.6739992}
   m_Center: {x: -0.0000054836273, y: 0.3571875, z: 0}
+--- !u!114 &114253943060382128
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1114958450673442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 240
+    i1: 100
+    i2: 138
+    i3: 254
+    i4: 204
+    i5: 123
+    i6: 36
+    i7: 143
+    i8: 73
+    i9: 51
+    i10: 143
+    i11: 43
+    i12: 176
+    i13: 113
+    i14: 117
+    i15: 81
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114306172223727220
 MonoBehaviour:
   m_ObjectHideFlags: 1

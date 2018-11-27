@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23049001402193564}
   - component: {fileID: 64105941517796302}
   - component: {fileID: 114660009045145540}
+  - component: {fileID: 114768052504749718}
   m_Layer: 0
   m_Name: Sofa
   m_TagString: Untagged
@@ -122,3 +123,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 0
+--- !u!114 &114768052504749718
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1003493918837106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 187
+    i1: 62
+    i2: 170
+    i3: 5
+    i4: 4
+    i5: 152
+    i6: 180
+    i7: 190
+    i8: 10
+    i9: 103
+    i10: 124
+    i11: 213
+    i12: 152
+    i13: 14
+    i14: 64
+    i15: 124
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

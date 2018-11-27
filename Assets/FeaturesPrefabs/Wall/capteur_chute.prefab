@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 114615868667210000}
   - component: {fileID: 65526452730132600}
   - component: {fileID: 114837445440045370}
+  - component: {fileID: 114915992987590950}
   m_Layer: 0
   m_Name: capteur_chute
   m_TagString: Untagged
@@ -147,3 +148,35 @@ MonoBehaviour:
   healthParameters:
   - {fileID: 11400000, guid: 21dd1385b0a04425a98fc44299cb0957, type: 2}
   healthPIndex: 
+--- !u!114 &114915992987590950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1498657277592040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 45
+    i1: 152
+    i2: 125
+    i3: 123
+    i4: 0
+    i5: 42
+    i6: 132
+    i7: 143
+    i8: 107
+    i9: 133
+    i10: 154
+    i11: 25
+    i12: 29
+    i13: 50
+    i14: 40
+    i15: 18
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

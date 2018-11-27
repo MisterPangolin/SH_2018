@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33181345543904770}
   - component: {fileID: 23691194660414426}
   - component: {fileID: 114708561187896006}
+  - component: {fileID: 114960773947744936}
   m_Layer: 0
   m_Name: A_VentilationGrid
   m_TagString: Untagged
@@ -107,3 +108,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 6
+--- !u!114 &114960773947744936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1639127398610104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 154
+    i1: 196
+    i2: 218
+    i3: 227
+    i4: 159
+    i5: 115
+    i6: 164
+    i7: 112
+    i8: 122
+    i9: 143
+    i10: 23
+    i11: 132
+    i12: 13
+    i13: 147
+    i14: 4
+    i15: 198
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

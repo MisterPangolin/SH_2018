@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 23412755661727470}
   - component: {fileID: 65185519678029908}
   - component: {fileID: 114438179288882212}
+  - component: {fileID: 114344951283112316}
   m_Layer: 0
   m_Name: WashingMachine
   m_TagString: Untagged
@@ -140,6 +141,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9888179, y: 0.012183189, z: 1.8920857}
   m_Center: {x: 0, y: 2.6470404, z: 0.099419296}
+--- !u!114 &114344951283112316
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1505841537224652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 93
+    i1: 214
+    i2: 26
+    i3: 69
+    i4: 232
+    i5: 118
+    i6: 68
+    i7: 44
+    i8: 187
+    i9: 107
+    i10: 39
+    i11: 69
+    i12: 191
+    i13: 96
+    i14: 113
+    i15: 144
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114360964422477040
 MonoBehaviour:
   m_ObjectHideFlags: 1

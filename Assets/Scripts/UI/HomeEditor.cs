@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.Networking;
 using System.Collections;
 
 /// <summary>
@@ -913,7 +914,17 @@ public class HomeEditor : MonoBehaviour
 			RotateFeature(keepOrientation);
 		}
 		featurePrefab.GetComponent<Feature>().ColliderActive = false;
-		ChangeHighlight(featurePrefab);
+        // ajout des scripts pour le multi
+        if (featurePrefab.GetComponent<NetworkIdentity>() == null)
+        {
+            featurePrefab.AddComponent<NetworkIdentity>();
+        }
+        if (featurePrefab.GetComponent<NetworkTransform>() == null)
+        {
+            featurePrefab.AddComponent<NetworkTransform>();
+        }
+        NetworkServer.Spawn(featurePrefab);
+        ChangeHighlight(featurePrefab);
 	}
 
 	/// <summary>
@@ -924,7 +935,17 @@ public class HomeEditor : MonoBehaviour
 		Destroy(objectPrefab);
 		objectPrefab = manager.InstantiateObject(objectRef, ObjectType.placeableObject);
 		objectPrefab.GetComponent<PlaceableObject>().RendererActive = false;
-	}
+        // ajout des scripts pour le multi
+        if (objectPrefab.GetComponent<NetworkIdentity>() == null)
+        {
+            objectPrefab.AddComponent<NetworkIdentity>();
+        }
+        if (objectPrefab.GetComponent<NetworkTransform>() == null)
+        {
+            objectPrefab.AddComponent<NetworkTransform>();
+        }
+        NetworkServer.Spawn(objectPrefab);
+    }
 
 	/// <summary>
 	/// Selectionne le rectangle à placer sous l'objet pour les modes "AddFeature" et "Movefeature" en fonction de la

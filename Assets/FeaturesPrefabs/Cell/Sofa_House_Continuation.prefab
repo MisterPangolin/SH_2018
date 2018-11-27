@@ -20,6 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4007464175191580}
   - component: {fileID: 114603415171577730}
+  - component: {fileID: 114189534748302606}
   m_Layer: 0
   m_Name: Sofa_House_Continuation
   m_TagString: Untagged
@@ -139,6 +140,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2, y: 0.45, z: 0.6299751}
   m_Center: {x: 0.27, y: 0.26, z: -0.000000014901161}
+--- !u!114 &114189534748302606
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349518360165946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 162
+    i1: 185
+    i2: 240
+    i3: 154
+    i4: 186
+    i5: 255
+    i6: 116
+    i7: 205
+    i8: 171
+    i9: 84
+    i10: 153
+    i11: 13
+    i12: 89
+    i13: 202
+    i14: 229
+    i15: 63
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114603415171577730
 MonoBehaviour:
   m_ObjectHideFlags: 1

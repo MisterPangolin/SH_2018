@@ -71,6 +71,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4955823708011750}
   - component: {fileID: 114092169293955960}
+  - component: {fileID: 114293116711469554}
   m_Layer: 0
   m_Name: washbasin
   m_TagString: Untagged
@@ -285,3 +286,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 2
+--- !u!114 &114293116711469554
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1745008518149732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 105
+    i1: 197
+    i2: 116
+    i3: 244
+    i4: 160
+    i5: 245
+    i6: 164
+    i7: 112
+    i8: 74
+    i9: 55
+    i10: 192
+    i11: 92
+    i12: 213
+    i13: 139
+    i14: 125
+    i15: 240
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

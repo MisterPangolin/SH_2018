@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 65819650523235320}
   - component: {fileID: 65496489975675506}
   - component: {fileID: 114141091379713946}
+  - component: {fileID: 114910725809621976}
   m_Layer: 0
   m_Name: KitchenTable_Small
   m_TagString: Untagged
@@ -190,3 +191,35 @@ MonoBehaviour:
   surface: {fileID: 65127845957306496}
   vertex: []
   yOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &114910725809621976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1400685046930980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 82
+    i1: 220
+    i2: 240
+    i3: 60
+    i4: 249
+    i5: 75
+    i6: 180
+    i7: 224
+    i8: 203
+    i9: 130
+    i10: 191
+    i11: 243
+    i12: 58
+    i13: 163
+    i14: 13
+    i15: 64
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

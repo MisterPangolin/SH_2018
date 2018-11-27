@@ -38,6 +38,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4230423541129862}
   - component: {fileID: 114229828711827278}
+  - component: {fileID: 114187262503653844}
   m_Layer: 0
   m_Name: BathStand02a
   m_TagString: Untagged
@@ -216,6 +217,38 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 12a8ee4087c884b4297774c9c0ba0a2c, type: 3}
+--- !u!114 &114187262503653844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1396761946020554}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 57
+    i1: 9
+    i2: 157
+    i3: 242
+    i4: 49
+    i5: 15
+    i6: 196
+    i7: 76
+    i8: 26
+    i9: 193
+    i10: 19
+    i11: 160
+    i12: 14
+    i13: 73
+    i14: 21
+    i15: 165
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114229828711827278
 MonoBehaviour:
   m_ObjectHideFlags: 1

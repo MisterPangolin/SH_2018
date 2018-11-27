@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23988395694933154}
   - component: {fileID: 114253347055840958}
   - component: {fileID: 64683103396431696}
+  - component: {fileID: 114396421250889576}
   m_Layer: 0
   m_Name: rack 1
   m_TagString: Untagged
@@ -251,6 +252,38 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 0
+--- !u!114 &114396421250889576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1054353871781026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 51
+    i1: 22
+    i2: 211
+    i3: 190
+    i4: 98
+    i5: 130
+    i6: 116
+    i7: 32
+    i8: 72
+    i9: 100
+    i10: 14
+    i11: 130
+    i12: 108
+    i13: 196
+    i14: 17
+    i15: 84
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114765666705784096
 MonoBehaviour:
   m_ObjectHideFlags: 1

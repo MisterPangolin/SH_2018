@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 23976873422932928}
   - component: {fileID: 64846902746730814}
   - component: {fileID: 114715505668142878}
+  - component: {fileID: 114524003388844118}
   m_Layer: 0
   m_Name: ClosetPrefab
   m_TagString: Untagged
@@ -342,6 +343,38 @@ MonoBehaviour:
   surface: {fileID: 65318505579524926}
   vertex: []
   yOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &114524003388844118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1422810481743344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 143
+    i1: 238
+    i2: 100
+    i3: 166
+    i4: 244
+    i5: 248
+    i6: 180
+    i7: 223
+    i8: 73
+    i9: 44
+    i10: 111
+    i11: 182
+    i12: 37
+    i13: 185
+    i14: 202
+    i15: 146
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114678270215242098
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -55,6 +55,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4391755775950830}
   - component: {fileID: 114183397698465854}
+  - component: {fileID: 114560549526239214}
   m_Layer: 0
   m_Name: tv_table_2
   m_TagString: Untagged
@@ -425,3 +426,35 @@ MonoBehaviour:
   surface: {fileID: 65321784904867508}
   vertex: []
   yOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &114560549526239214
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1369086230490646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 32
+    i1: 238
+    i2: 28
+    i3: 194
+    i4: 85
+    i5: 134
+    i6: 148
+    i7: 223
+    i8: 122
+    i9: 2
+    i10: 105
+    i11: 194
+    i12: 2
+    i13: 157
+    i14: 248
+    i15: 60
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

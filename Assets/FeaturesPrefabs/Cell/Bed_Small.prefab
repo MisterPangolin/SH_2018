@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 65315846409379920}
   - component: {fileID: 65538239232891184}
   - component: {fileID: 114448440703531208}
+  - component: {fileID: 114366267995928072}
   m_Layer: 0
   m_Name: Bed_Small
   m_TagString: Untagged
@@ -183,6 +184,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.145083, y: 0.9198788, z: 0.05}
   m_Center: {x: -0.000000029802322, y: 0.4513968, z: -1.01}
+--- !u!114 &114366267995928072
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1455420236633318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 249
+    i1: 22
+    i2: 60
+    i3: 16
+    i4: 244
+    i5: 87
+    i6: 100
+    i7: 223
+    i8: 155
+    i9: 33
+    i10: 40
+    i11: 154
+    i12: 219
+    i13: 5
+    i14: 25
+    i15: 51
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114448440703531208
 MonoBehaviour:
   m_ObjectHideFlags: 1

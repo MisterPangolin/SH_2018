@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33048516240640452}
   - component: {fileID: 23239634289457442}
   - component: {fileID: 114209816948067908}
+  - component: {fileID: 114455720310191892}
   m_Layer: 0
   m_Name: kitchen_table_2
   m_TagString: Untagged
@@ -107,3 +108,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 1
+--- !u!114 &114455720310191892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1229649880463734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 180
+    i1: 26
+    i2: 170
+    i3: 252
+    i4: 93
+    i5: 164
+    i6: 52
+    i7: 82
+    i8: 107
+    i9: 26
+    i10: 84
+    i11: 98
+    i12: 97
+    i13: 112
+    i14: 37
+    i15: 43
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

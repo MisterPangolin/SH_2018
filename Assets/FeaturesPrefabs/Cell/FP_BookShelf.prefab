@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 114076455586025486}
   - component: {fileID: 65406498703467932}
   - component: {fileID: 65684120492156042}
+  - component: {fileID: 114145685410231708}
   m_Layer: 0
   m_Name: FP_BookShelf
   m_TagString: Untagged
@@ -176,6 +177,38 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 0
+--- !u!114 &114145685410231708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1052241699742672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 245
+    i1: 28
+    i2: 224
+    i3: 15
+    i4: 3
+    i5: 235
+    i6: 132
+    i7: 126
+    i8: 202
+    i9: 15
+    i10: 76
+    i11: 115
+    i12: 178
+    i13: 116
+    i14: 132
+    i15: 252
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114157586652888010
 MonoBehaviour:
   m_ObjectHideFlags: 1

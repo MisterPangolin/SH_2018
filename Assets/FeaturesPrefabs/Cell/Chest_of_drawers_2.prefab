@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 23572083208583394}
   - component: {fileID: 114495616165425702}
   - component: {fileID: 65587049726651318}
+  - component: {fileID: 114734739790362112}
   m_Layer: 0
   m_Name: Chest_of_drawers_2
   m_TagString: Untagged
@@ -177,3 +178,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 0
+--- !u!114 &114734739790362112
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1846398563405830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 153
+    i1: 180
+    i2: 122
+    i3: 143
+    i4: 251
+    i5: 84
+    i6: 132
+    i7: 104
+    i8: 59
+    i9: 152
+    i10: 203
+    i11: 78
+    i12: 107
+    i13: 93
+    i14: 119
+    i15: 11
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

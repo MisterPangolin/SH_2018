@@ -72,6 +72,7 @@ GameObject:
   - component: {fileID: 4995992364227828}
   - component: {fileID: 114031597534636468}
   - component: {fileID: 65363384548567978}
+  - component: {fileID: 114089562358966726}
   m_Layer: 0
   m_Name: cabinet_2
   m_TagString: Untagged
@@ -368,3 +369,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 3
+--- !u!114 &114089562358966726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708155317903510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 177
+    i1: 38
+    i2: 202
+    i3: 2
+    i4: 132
+    i5: 96
+    i6: 100
+    i7: 3
+    i8: 250
+    i9: 87
+    i10: 242
+    i11: 40
+    i12: 90
+    i13: 49
+    i14: 164
+    i15: 132
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

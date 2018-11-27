@@ -91,6 +91,7 @@ GameObject:
   - component: {fileID: 23478772170580382}
   - component: {fileID: 114579779410666908}
   - component: {fileID: 65699944378866556}
+  - component: {fileID: 114888757864033264}
   m_Layer: 0
   m_Name: TV_Table
   m_TagString: Untagged
@@ -469,3 +470,35 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 0
+--- !u!114 &114888757864033264
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1889510382647854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 134
+    i1: 123
+    i2: 137
+    i3: 20
+    i4: 100
+    i5: 147
+    i6: 4
+    i7: 45
+    i8: 9
+    i9: 39
+    i10: 199
+    i11: 196
+    i12: 217
+    i13: 240
+    i14: 67
+    i15: 194
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

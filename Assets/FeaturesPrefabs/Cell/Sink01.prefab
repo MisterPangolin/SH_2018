@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 65937887369644928}
   - component: {fileID: 65476114319019732}
   - component: {fileID: 65142778886565184}
+  - component: {fileID: 114908467903605068}
   m_Layer: 0
   m_Name: Sink01
   m_TagString: Untagged
@@ -194,6 +195,38 @@ MonoBehaviour:
   surface: {fileID: 65097262773481180}
   vertex: []
   yOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &114908467903605068
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1866622879544038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 122
+    i1: 106
+    i2: 95
+    i3: 36
+    i4: 164
+    i5: 13
+    i6: 116
+    i7: 75
+    i8: 185
+    i9: 62
+    i10: 39
+    i11: 71
+    i12: 149
+    i13: 99
+    i14: 119
+    i15: 82
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114922500338947172
 MonoBehaviour:
   m_ObjectHideFlags: 1

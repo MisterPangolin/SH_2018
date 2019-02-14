@@ -204,7 +204,9 @@ namespace Valve.VR.InteractionSystem
 			HidePointer();
 		}
 
-
+        /// <summary>
+        /// ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        /// </summary>
 		//-------------------------------------------------
 		private void CheckForSpawnPoint()
 		{
@@ -230,11 +232,15 @@ namespace Valve.VR.InteractionSystem
 			}
 		}
 
+        public void UpdatePlan()
+        {
+            teleportMarkers = GameObject.FindObjectsOfType<TeleportMarkerBase>();
+        }
 
 		//-------------------------------------------------
 		void Update()
 		{
-			Hand oldPointerHand = pointerHand;
+            Hand oldPointerHand = pointerHand;
 			Hand newPointerHand = null;
 
 			foreach ( Hand hand in player.hands )
@@ -864,7 +870,7 @@ namespace Valve.VR.InteractionSystem
 
 			if ( teleportPoint != null )
 			{
-				teleportPosition = teleportPoint.transform.position;
+				teleportPosition = teleportPoint.GetComponent<TPEscaliers>().tp.transform.position;
 
 				//Teleport to a new scene
 				if ( teleportPoint.teleportType == TeleportPoint.TeleportPointType.SwitchToNewScene )

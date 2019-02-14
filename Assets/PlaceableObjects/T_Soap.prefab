@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 54939953669679714}
   - component: {fileID: 114838248826979896}
   - component: {fileID: 65875122694913090}
+  - component: {fileID: 114853976888994204}
+  - component: {fileID: 114940671730007066}
   m_Layer: 0
   m_Name: T_Soap
   m_TagString: Untagged
@@ -147,3 +149,56 @@ MonoBehaviour:
   hasDevice: 0
   device: {fileID: 0}
   category: 2
+--- !u!114 &114853976888994204
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1776505982754410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 39
+    i1: 92
+    i2: 40
+    i3: 219
+    i4: 65
+    i5: 240
+    i6: 148
+    i7: 82
+    i8: 104
+    i9: 40
+    i10: 34
+    i11: 148
+    i12: 206
+    i13: 73
+    i14: 125
+    i15: 200
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114940671730007066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1776505982754410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05

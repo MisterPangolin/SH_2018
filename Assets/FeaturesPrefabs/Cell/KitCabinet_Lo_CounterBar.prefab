@@ -23,7 +23,8 @@ GameObject:
   - component: {fileID: 23297939874899222}
   - component: {fileID: 65583965999889554}
   - component: {fileID: 114378060145536508}
-  - component: {fileID: 114814123389490696}
+  - component: {fileID: 114387955546398718}
+  - component: {fileID: 114234888844641152}
   m_Layer: 0
   m_Name: KitCabinet_Lo_CounterBar
   m_TagString: Untagged
@@ -156,6 +157,27 @@ MonoBehaviour:
   surface: {fileID: 65302999915389576}
   vertex: []
   yOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &114234888844641152
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1402838840109998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
 --- !u!114 &114378060145536508
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -179,7 +201,7 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 1
---- !u!114 &114814123389490696
+--- !u!114 &114387955546398718
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

@@ -91,7 +91,8 @@ GameObject:
   - component: {fileID: 23478772170580382}
   - component: {fileID: 114579779410666908}
   - component: {fileID: 65699944378866556}
-  - component: {fileID: 114888757864033264}
+  - component: {fileID: 114946376455336384}
+  - component: {fileID: 114477657263416648}
   m_Layer: 0
   m_Name: TV_Table
   m_TagString: Untagged
@@ -447,6 +448,27 @@ MonoBehaviour:
   surface: {fileID: 65484840933024864}
   vertex: []
   yOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &114477657263416648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1889510382647854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
 --- !u!114 &114579779410666908
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -470,7 +492,7 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 0
---- !u!114 &114888757864033264
+--- !u!114 &114946376455336384
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

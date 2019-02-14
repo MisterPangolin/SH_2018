@@ -24,7 +24,8 @@ GameObject:
   - component: {fileID: 65315846409379920}
   - component: {fileID: 65538239232891184}
   - component: {fileID: 114448440703531208}
-  - component: {fileID: 114366267995928072}
+  - component: {fileID: 114126819128075136}
+  - component: {fileID: 114878573690525628}
   m_Layer: 0
   m_Name: Bed_Small
   m_TagString: Untagged
@@ -184,7 +185,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.145083, y: 0.9198788, z: 0.05}
   m_Center: {x: -0.000000029802322, y: 0.4513968, z: -1.01}
---- !u!114 &114366267995928072
+--- !u!114 &114126819128075136
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -239,3 +240,24 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 3
+--- !u!114 &114878573690525628
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1455420236633318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21

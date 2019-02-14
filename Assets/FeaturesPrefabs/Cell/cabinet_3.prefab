@@ -89,7 +89,8 @@ GameObject:
   - component: {fileID: 4897038252668058}
   - component: {fileID: 114250924844101822}
   - component: {fileID: 65616426540603782}
-  - component: {fileID: 114510990731226810}
+  - component: {fileID: 114258080000849072}
+  - component: {fileID: 114340337718230626}
   m_Layer: 0
   m_Name: cabinet_3
   m_TagString: Untagged
@@ -369,7 +370,7 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 3
---- !u!114 &114510990731226810
+--- !u!114 &114258080000849072
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -401,3 +402,24 @@ MonoBehaviour:
     i15: 29
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!114 &114340337718230626
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868256496289678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21

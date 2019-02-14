@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 114646703699394668}
   - component: {fileID: 64049770517341124}
   - component: {fileID: 65321835487465392}
+  - component: {fileID: 114849626914953044}
+  - component: {fileID: 114815586695234318}
   m_Layer: 0
   m_Name: Cup
   m_TagString: Untagged
@@ -149,3 +151,56 @@ MonoBehaviour:
   hasDevice: 0
   device: {fileID: 0}
   category: 1
+--- !u!114 &114815586695234318
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1602380855198164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
+--- !u!114 &114849626914953044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1602380855198164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 162
+    i1: 230
+    i2: 78
+    i3: 102
+    i4: 142
+    i5: 116
+    i6: 68
+    i7: 224
+    i8: 41
+    i9: 22
+    i10: 79
+    i11: 164
+    i12: 134
+    i13: 25
+    i14: 103
+    i15: 195
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

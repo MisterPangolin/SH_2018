@@ -3,14 +3,13 @@
 --- !u!1 &110724
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
   - component: {fileID: 483364}
   - component: {fileID: 3338472}
   - component: {fileID: 2316320}
-  - component: {fileID: 114059052659969684}
   m_Layer: 0
   m_Name: Carpet
   m_TagString: Untagged
@@ -21,7 +20,7 @@ GameObject:
 --- !u!4 &483364
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 110724}
   m_LocalRotation: {x: -0.5, y: -0.5, z: -0.5000001, w: 0.49999994}
@@ -34,7 +33,7 @@ Transform:
 --- !u!23 &2316320
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 110724}
   m_Enabled: 1
@@ -44,7 +43,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 6ed9a48792b74e3499e0a04e50782967, type: 2}
   m_StaticBatchInfo:
@@ -69,7 +67,7 @@ MeshRenderer:
 --- !u!33 &3338472
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 110724}
   m_Mesh: {fileID: 4300000, guid: 8f12198eebd4e204fa40a3db91221aeb, type: 3}
@@ -81,38 +79,6 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
+  m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 110724}
-  m_IsPrefabAsset: 1
---- !u!114 &114059052659969684
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 110724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 186
-    i1: 182
-    i2: 69
-    i3: 5
-    i4: 10
-    i5: 77
-    i6: 106
-    i7: 52
-    i8: 56
-    i9: 59
-    i10: 66
-    i11: 65
-    i12: 223
-    i13: 232
-    i14: 210
-    i15: 150
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
+  m_IsPrefabParent: 1

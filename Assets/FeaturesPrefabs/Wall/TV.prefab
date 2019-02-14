@@ -37,7 +37,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4685454337788818}
   - component: {fileID: 114429104890864836}
-  - component: {fileID: 114268733116018766}
+  - component: {fileID: 114832925438275922}
+  - component: {fileID: 114487680704968198}
   m_Layer: 0
   m_Name: TV
   m_TagString: Untagged
@@ -200,7 +201,51 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4696393, y: 0.8481725, z: 0.00000014528632}
   m_Center: {x: 0.000008016825, y: 0.42371097, z: 0.04253579}
---- !u!114 &114268733116018766
+--- !u!114 &114429104890864836
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1606343466355342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab6bb3f68ebd345a5a33d1a1f5fb7537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  height: 0
+  xOffset: 0
+  zOffset: 0
+  featureType: 2
+  orientation: 2
+  baseRotation: {x: 0, y: 0, z: 0}
+  blocType: 7
+  sprite: {fileID: 21300000, guid: e88aebb4264b94ff8ab6bcd38041a857, type: 3}
+  hasDevice: 0
+  device: {fileID: 0}
+  side: 0
+  category: 0
+--- !u!114 &114487680704968198
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1606343466355342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
+--- !u!114 &114832925438275922
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -232,26 +277,3 @@ MonoBehaviour:
     i15: 153
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
---- !u!114 &114429104890864836
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1606343466355342}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab6bb3f68ebd345a5a33d1a1f5fb7537, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  height: 0
-  xOffset: 0
-  zOffset: 0
-  featureType: 2
-  orientation: 2
-  baseRotation: {x: 0, y: 0, z: 0}
-  blocType: 7
-  sprite: {fileID: 21300000, guid: e88aebb4264b94ff8ab6bcd38041a857, type: 3}
-  hasDevice: 0
-  device: {fileID: 0}
-  side: 0
-  category: 0

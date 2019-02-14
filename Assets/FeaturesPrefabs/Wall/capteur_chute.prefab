@@ -24,7 +24,10 @@ GameObject:
   - component: {fileID: 114615868667210000}
   - component: {fileID: 65526452730132600}
   - component: {fileID: 114837445440045370}
-  - component: {fileID: 114915992987590950}
+  - component: {fileID: 114287532477074330}
+  - component: {fileID: 114342877968653542}
+  - component: {fileID: 114194798872790426}
+  - component: {fileID: 114566431118264272}
   m_Layer: 0
   m_Name: capteur_chute
   m_TagString: Untagged
@@ -99,6 +102,93 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 78.07571, y: 24.949123, z: 55.52356}
   m_Center: {x: 0, y: -7.4745584, z: 25.750853}
+--- !u!114 &114194798872790426
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1498657277592040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 45
+    i1: 152
+    i2: 125
+    i3: 123
+    i4: 0
+    i5: 42
+    i6: 132
+    i7: 143
+    i8: 107
+    i9: 133
+    i10: 154
+    i11: 25
+    i12: 29
+    i13: 50
+    i14: 40
+    i15: 18
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114287532477074330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1498657277592040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c472462f99559d48bb0aebe5228da8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114342877968653542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1498657277592040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateActionSetOnAttach: {fileID: 0}
+  hideHandOnAttach: 1
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  handFollowTransform: {fileID: 0}
+  handFollowTransformPosition: 1
+  handFollowTransformRotation: 1
+  highlightOnHover: 1
+  hideHighlight: []
+--- !u!114 &114566431118264272
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1498657277592040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
 --- !u!114 &114615868667210000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -148,35 +238,3 @@ MonoBehaviour:
   healthParameters:
   - {fileID: 11400000, guid: 21dd1385b0a04425a98fc44299cb0957, type: 2}
   healthPIndex: 
---- !u!114 &114915992987590950
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1498657277592040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 45
-    i1: 152
-    i2: 125
-    i3: 123
-    i4: 0
-    i5: 42
-    i6: 132
-    i7: 143
-    i8: 107
-    i9: 133
-    i10: 154
-    i11: 25
-    i12: 29
-    i13: 50
-    i14: 40
-    i15: 18
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0

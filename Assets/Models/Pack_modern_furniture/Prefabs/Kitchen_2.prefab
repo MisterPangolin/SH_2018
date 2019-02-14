@@ -3,15 +3,13 @@
 --- !u!1 &157220
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
   - component: {fileID: 469366}
   - component: {fileID: 3389818}
   - component: {fileID: 2373442}
-  - component: {fileID: 114343358590207388}
-  - component: {fileID: 114997654409930826}
   m_Layer: 0
   m_Name: Kitchen_2
   m_TagString: Untagged
@@ -22,7 +20,7 @@ GameObject:
 --- !u!4 &469366
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 157220}
   m_LocalRotation: {x: 0.000000021855694, y: -0, z: -0, w: 1}
@@ -35,7 +33,7 @@ Transform:
 --- !u!23 &2373442
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 157220}
   m_Enabled: 1
@@ -45,7 +43,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 6bfa1e5b9d38df345bdf8c2e01947b1e, type: 2}
   m_StaticBatchInfo:
@@ -70,7 +67,7 @@ MeshRenderer:
 --- !u!33 &3389818
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 157220}
   m_Mesh: {fileID: 4300000, guid: 78eecf95c93b0b741b4311a50a716116, type: 3}
@@ -82,59 +79,6 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
+  m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 157220}
-  m_IsPrefabAsset: 1
---- !u!114 &114343358590207388
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 157220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 224
-    i1: 17
-    i2: 152
-    i3: 106
-    i4: 17
-    i5: 208
-    i6: 101
-    i7: 180
-    i8: 200
-    i9: 60
-    i10: 187
-    i11: 61
-    i12: 21
-    i13: 195
-    i14: 248
-    i15: 193
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
---- !u!114 &114997654409930826
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 157220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TransformSyncMode: 1
-  m_SendInterval: 1
-  m_SyncRotationAxis: 7
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_VelocityThreshold: 0.0001
-  m_SnapThreshold: 5
-  m_InterpolateRotation: 1
-  m_InterpolateMovement: 1
+  m_IsPrefabParent: 1

@@ -1,11 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Networking;
 
 /// <summary>
 /// Composant du bouton des fichiers de sauvegarde.
 /// </summary>
-public class SaveLoadItem : NetworkBehaviour {
+public class SaveLoadItem : MonoBehaviour {
 
 	//nom du fichier de sauvegarde
 	string homeName;

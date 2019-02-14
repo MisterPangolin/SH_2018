@@ -3,15 +3,13 @@
 --- !u!1 &150400
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
   - component: {fileID: 450400}
   - component: {fileID: 3350400}
   - component: {fileID: 2350400}
-  - component: {fileID: 114510823646682806}
-  - component: {fileID: 114931259850100894}
   m_Layer: 0
   m_Name: bollard
   m_TagString: Untagged
@@ -22,7 +20,7 @@ GameObject:
 --- !u!4 &450400
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 150400}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -35,7 +33,7 @@ Transform:
 --- !u!23 &2350400
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 150400}
   m_Enabled: 1
@@ -45,7 +43,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 1ee45b44dd1df73498af06e727ed49f8, type: 2}
   m_StaticBatchInfo:
@@ -70,7 +67,7 @@ MeshRenderer:
 --- !u!33 &3350400
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 150400}
   m_Mesh: {fileID: 4300000, guid: 20b2a69f4f267414db1e43ba73f1e6e3, type: 3}
@@ -82,59 +79,6 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
+  m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 150400}
-  m_IsPrefabAsset: 1
---- !u!114 &114510823646682806
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 150400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 47
-    i1: 163
-    i2: 146
-    i3: 210
-    i4: 155
-    i5: 78
-    i6: 117
-    i7: 132
-    i8: 106
-    i9: 147
-    i10: 113
-    i11: 47
-    i12: 16
-    i13: 131
-    i14: 229
-    i15: 134
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
---- !u!114 &114931259850100894
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 150400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TransformSyncMode: 1
-  m_SendInterval: 1
-  m_SyncRotationAxis: 7
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_VelocityThreshold: 0.0001
-  m_SnapThreshold: 5
-  m_InterpolateRotation: 1
-  m_InterpolateMovement: 1
+  m_IsPrefabParent: 1

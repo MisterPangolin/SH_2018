@@ -3,14 +3,13 @@
 --- !u!1 &109892
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
   - component: {fileID: 496434}
   - component: {fileID: 3351468}
   - component: {fileID: 2326294}
-  - component: {fileID: 114731940163003914}
   m_Layer: 0
   m_Name: A_PowerSocket
   m_TagString: Untagged
@@ -21,7 +20,7 @@ GameObject:
 --- !u!4 &496434
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 109892}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -34,7 +33,7 @@ Transform:
 --- !u!23 &2326294
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 109892}
   m_Enabled: 1
@@ -44,7 +43,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: f07ba428f97ee6f4f9cec2648be81b0d, type: 2}
   m_StaticBatchInfo:
@@ -69,7 +67,7 @@ MeshRenderer:
 --- !u!33 &3351468
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 109892}
   m_Mesh: {fileID: 4300000, guid: 375218f13569dcb46946961f6b28f58b, type: 3}
@@ -81,38 +79,6 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
+  m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 109892}
-  m_IsPrefabAsset: 1
---- !u!114 &114731940163003914
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 109892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 247
-    i1: 100
-    i2: 59
-    i3: 185
-    i4: 205
-    i5: 117
-    i6: 189
-    i7: 52
-    i8: 187
-    i9: 197
-    i10: 244
-    i11: 125
-    i12: 6
-    i13: 12
-    i14: 145
-    i15: 248
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
+  m_IsPrefabParent: 1

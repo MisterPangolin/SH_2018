@@ -25,7 +25,8 @@ GameObject:
   - component: {fileID: 114689956144531514}
   - component: {fileID: 65455160034365698}
   - component: {fileID: 65108529630058014}
-  - component: {fileID: 114362951049899448}
+  - component: {fileID: 114071876229605086}
+  - component: {fileID: 114757217522083554}
   m_Layer: 0
   m_Name: Microwave
   m_TagString: Untagged
@@ -127,7 +128,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5500001, y: 0.33, z: 0.35678113}
   m_Center: {x: -0.000000014901161, y: 0.165, z: 0.014109455}
---- !u!114 &114362951049899448
+--- !u!114 &114071876229605086
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -135,24 +136,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 1494690498495322}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 139d9d4b2f13449628b29942bdb5e881, type: 3}
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 0
-  objectName: microwave
-  objectDescription: m
-  use: m
-  colliders: []
-  isDestroyed: 0
-  cameraPlayer: {fileID: 0}
-  cameraOverview: {fileID: 0}
-  homeParameters:
-  - {fileID: 11400000, guid: 732b1d517289c4b1ba642d4d62e1c8cb, type: 2}
-  homePIndex: 
-  healthParameters:
-  - {fileID: 11400000, guid: 3dfedd42306dd42deb1cf4fc0a3b5ca1, type: 2}
-  - {fileID: 11400000, guid: 406071ce7833545c8a26ef88fd5c8894, type: 2}
-  healthPIndex: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 61
+    i1: 52
+    i2: 252
+    i3: 157
+    i4: 155
+    i5: 217
+    i6: 148
+    i7: 135
+    i8: 10
+    i9: 50
+    i10: 0
+    i11: 12
+    i12: 236
+    i13: 56
+    i14: 214
+    i15: 153
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114689956144531514
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -174,3 +181,24 @@ MonoBehaviour:
   hasDevice: 0
   device: {fileID: 0}
   category: 1
+--- !u!114 &114757217522083554
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1494690498495322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05

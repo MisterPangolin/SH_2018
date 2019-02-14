@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 54936720974503870}
   - component: {fileID: 114851794659450126}
   - component: {fileID: 65183544887518158}
+  - component: {fileID: 114484430130775698}
+  - component: {fileID: 114285584441273022}
   m_Layer: 0
   m_Name: KP_Spoons
   m_TagString: Untagged
@@ -126,6 +128,59 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.12608787, y: 0.27748716, z: 0.123658136}
   m_Center: {x: -0.008740807, y: 0.13874358, z: -0.012570778}
+--- !u!114 &114285584441273022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1906343168871604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
+--- !u!114 &114484430130775698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1906343168871604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 214
+    i1: 223
+    i2: 107
+    i3: 214
+    i4: 32
+    i5: 102
+    i6: 20
+    i7: 135
+    i8: 219
+    i9: 251
+    i10: 2
+    i11: 135
+    i12: 160
+    i13: 60
+    i14: 195
+    i15: 215
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114851794659450126
 MonoBehaviour:
   m_ObjectHideFlags: 1

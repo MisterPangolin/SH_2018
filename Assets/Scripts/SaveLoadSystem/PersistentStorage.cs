@@ -1,13 +1,14 @@
 ﻿using System.IO;
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.Networking;
 
 /// <summary>
 /// Classe unique qui ne peut être instanciée. N'importe quelle partie du projet peut y accéder.
 /// Conserve le nom du fichier de sauvegarde à utiliser.
 /// Permet le chargement et la sauvegarde de la maison.
 /// </summary>
-public static class PersistentStorage
+public static class PersistentStorage 
 {
 	//fichier de sauvegarde
 	static string savePath;
@@ -61,7 +62,7 @@ public static class PersistentStorage
 	/// </summary>
 	public static void Load(PersistableObject o)
 	{
-		if (!File.Exists(savePath))
+        if (!File.Exists(savePath))
 		{
 			Debug.LogError("le fichier n'existe pas " + savePath);
 		}
@@ -72,7 +73,7 @@ public static class PersistentStorage
 			)
 			{
 				o.Load(new HomeDataReader(reader));
-			}
+            }
 		}
 	}
 

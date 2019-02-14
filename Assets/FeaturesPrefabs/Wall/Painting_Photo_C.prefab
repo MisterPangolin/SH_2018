@@ -23,7 +23,8 @@ GameObject:
   - component: {fileID: 23449850755744314}
   - component: {fileID: 65381983077396760}
   - component: {fileID: 114078862477757326}
-  - component: {fileID: 114962289551358452}
+  - component: {fileID: 114763144227155928}
+  - component: {fileID: 114462139303767666}
   m_Layer: 0
   m_Name: Painting_Photo_C
   m_TagString: Untagged
@@ -121,7 +122,28 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 6
---- !u!114 &114962289551358452
+--- !u!114 &114462139303767666
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1814940086457434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
+--- !u!114 &114763144227155928
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

@@ -23,7 +23,8 @@ GameObject:
   - component: {fileID: 23972429933469876}
   - component: {fileID: 65126656663579184}
   - component: {fileID: 114964222802261250}
-  - component: {fileID: 114803728118917962}
+  - component: {fileID: 114287614332238988}
+  - component: {fileID: 114815737859676812}
   m_Layer: 0
   m_Name: Fridge
   m_TagString: Untagged
@@ -173,7 +174,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6342781, y: 1.7344855, z: 0.68128943}
   m_Center: {x: 0, y: 0.862796, z: 0}
---- !u!114 &114803728118917962
+--- !u!114 &114287614332238988
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -205,6 +206,27 @@ MonoBehaviour:
     i15: 132
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!114 &114815737859676812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1638137074585868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
 --- !u!114 &114964222802261250
 MonoBehaviour:
   m_ObjectHideFlags: 1

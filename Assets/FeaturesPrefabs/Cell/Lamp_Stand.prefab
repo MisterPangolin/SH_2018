@@ -24,7 +24,8 @@ GameObject:
   - component: {fileID: 65674747361436402}
   - component: {fileID: 65284196023982546}
   - component: {fileID: 114303735336887380}
-  - component: {fileID: 114644286286400252}
+  - component: {fileID: 114361001012556126}
+  - component: {fileID: 114593046514666442}
   m_Layer: 8
   m_Name: Lamp_Stand
   m_TagString: Untagged
@@ -268,7 +269,7 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 4
---- !u!114 &114644286286400252
+--- !u!114 &114361001012556126
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -300,3 +301,24 @@ MonoBehaviour:
     i15: 251
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!114 &114593046514666442
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1270392033408656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21

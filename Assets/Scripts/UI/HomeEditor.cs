@@ -8,7 +8,7 @@ using System.Collections;
 /// Classe permettant la création et la modification des maisons en instanciant les objets qui la constituent, et en
 /// traitant les inputs de l'utilisateur pour appliquer les fonctions d'édition.
 /// </summary>
-public class HomeEditor : MonoBehaviour
+public class HomeEditor : NetworkBehaviour
 {
 	//mode d'édition
 	OptionalToggle buildMode;
@@ -32,7 +32,6 @@ public class HomeEditor : MonoBehaviour
 	bool applyColor;
 	[HideInInspector]
 	public int activeType;
-
 	//références des prefabs pouvant être instanciés
 	public EditorManagement manager;
 
@@ -109,14 +108,26 @@ public class HomeEditor : MonoBehaviour
 			manager.Save();
 		}
 		ChangeMode();
-	}
+    }
 
-	/// <summary>
-	/// Appelée lors du chargement de la scène si la maison à éditer/observer est une nouvelle maison.
-	/// Détruit l'ancienne grille pour la remplacer par une nouvelle grille de dimension x*z.
-	/// Réinitialise les caméras et le mode d'édition.
-	/// </summary>
-	public void CreateHome(int x, int z)
+    static public void Cmdspawn(GameObject o)
+    {
+        GameObject.Find("Editor").GetComponent<HomeEditor>().CmdspawnSever(o);
+    }
+
+    [Command]
+    public void CmdspawnSever(GameObject b)
+    {
+        NetworkServer.Spawn(b);
+    }
+
+
+    /// <summary>
+    /// Appelée lors du chargement de la scène si la maison à éditer/observer est une nouvelle maison.
+    /// Détruit l'ancienne grille pour la remplacer par une nouvelle grille de dimension x*z.
+    /// Réinitialise les caméras et le mode d'édition.
+    /// </summary>
+    public void CreateHome(int x, int z)
 	{
 		foreach (FloorGrid floor in floors)
 		{
@@ -914,18 +925,9 @@ public class HomeEditor : MonoBehaviour
 			RotateFeature(keepOrientation);
 		}
 		featurePrefab.GetComponent<Feature>().ColliderActive = false;
-        // ajout des scripts pour le multi
-        if (featurePrefab.GetComponent<NetworkIdentity>() == null)
-        {
-            featurePrefab.AddComponent<NetworkIdentity>();
-        }
-        if (featurePrefab.GetComponent<NetworkTransform>() == null)
-        {
-            featurePrefab.AddComponent<NetworkTransform>();
-        }
-        NetworkServer.Spawn(featurePrefab);
-        ChangeHighlight(featurePrefab);
-	}
+		ChangeHighlight(featurePrefab);
+        NetworkServer.Spawn(featurePrefab);       
+    }
 
 	/// <summary>
 	/// Crée l'objet choisi, sans le placer sur la grille.	
@@ -935,15 +937,6 @@ public class HomeEditor : MonoBehaviour
 		Destroy(objectPrefab);
 		objectPrefab = manager.InstantiateObject(objectRef, ObjectType.placeableObject);
 		objectPrefab.GetComponent<PlaceableObject>().RendererActive = false;
-        // ajout des scripts pour le multi
-        if (objectPrefab.GetComponent<NetworkIdentity>() == null)
-        {
-            objectPrefab.AddComponent<NetworkIdentity>();
-        }
-        if (objectPrefab.GetComponent<NetworkTransform>() == null)
-        {
-            objectPrefab.AddComponent<NetworkTransform>();
-        }
         NetworkServer.Spawn(objectPrefab);
     }
 

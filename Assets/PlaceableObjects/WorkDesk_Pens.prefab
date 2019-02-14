@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 54383605334041544}
   - component: {fileID: 114211170380558356}
   - component: {fileID: 65649617531340290}
+  - component: {fileID: 114481648866745476}
+  - component: {fileID: 114435708770847996}
   m_Layer: 0
   m_Name: WorkDesk_Pens
   m_TagString: Untagged
@@ -147,3 +149,56 @@ MonoBehaviour:
   hasDevice: 0
   device: {fileID: 0}
   category: 6
+--- !u!114 &114435708770847996
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1866752666872818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
+--- !u!114 &114481648866745476
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1866752666872818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 34
+    i1: 99
+    i2: 40
+    i3: 43
+    i4: 216
+    i5: 33
+    i6: 148
+    i7: 150
+    i8: 170
+    i9: 95
+    i10: 170
+    i11: 248
+    i12: 171
+    i13: 101
+    i14: 163
+    i15: 134
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

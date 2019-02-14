@@ -23,7 +23,8 @@ GameObject:
   - component: {fileID: 23599880900150156}
   - component: {fileID: 65715110129678438}
   - component: {fileID: 114642922406889120}
-  - component: {fileID: 114253943060382128}
+  - component: {fileID: 114199451192161636}
+  - component: {fileID: 114177947399264034}
   m_Layer: 0
   m_Name: KitchenTable_Rectangle
   m_TagString: Untagged
@@ -141,7 +142,28 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.96741486, y: 0.7151162, z: 1.6739992}
   m_Center: {x: -0.0000054836273, y: 0.3571875, z: 0}
---- !u!114 &114253943060382128
+--- !u!114 &114177947399264034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1114958450673442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
+--- !u!114 &114199451192161636
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

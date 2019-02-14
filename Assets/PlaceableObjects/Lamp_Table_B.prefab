@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 54317094710776796}
   - component: {fileID: 114398500598776844}
   - component: {fileID: 65751048689427648}
+  - component: {fileID: 114777491785515156}
+  - component: {fileID: 114612572446807142}
   m_Layer: 0
   m_Name: Lamp_Table_B
   m_TagString: Untagged
@@ -157,3 +159,56 @@ MonoBehaviour:
   hasDevice: 0
   device: {fileID: 0}
   category: 0
+--- !u!114 &114612572446807142
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1922617182194018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
+--- !u!114 &114777491785515156
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1922617182194018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 137
+    i1: 107
+    i2: 109
+    i3: 213
+    i4: 49
+    i5: 30
+    i6: 100
+    i7: 220
+    i8: 235
+    i9: 92
+    i10: 147
+    i11: 61
+    i12: 64
+    i13: 30
+    i14: 255
+    i15: 184
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

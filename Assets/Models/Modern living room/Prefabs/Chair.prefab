@@ -3,14 +3,13 @@
 --- !u!1 &138370
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
   - component: {fileID: 487714}
   - component: {fileID: 3391828}
   - component: {fileID: 2310880}
-  - component: {fileID: 114391847408986064}
   m_Layer: 0
   m_Name: Chair
   m_TagString: Untagged
@@ -21,7 +20,7 @@ GameObject:
 --- !u!4 &487714
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 138370}
   m_LocalRotation: {x: -1.7112914e-15, y: 1, z: -0.000000021855694, w: -0.0000000754979}
@@ -34,7 +33,7 @@ Transform:
 --- !u!23 &2310880
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 138370}
   m_Enabled: 1
@@ -44,7 +43,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 5bb9c6b34ed7ab94c8c4fd296cde51bd, type: 2}
   - {fileID: 2100000, guid: 980f3dcbc8c378e40abef91addeb6dfe, type: 2}
@@ -70,7 +68,7 @@ MeshRenderer:
 --- !u!33 &3391828
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 138370}
   m_Mesh: {fileID: 4300000, guid: 8ca878efa04a62445a19c410fa1c73d7, type: 3}
@@ -82,38 +80,6 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
+  m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 138370}
-  m_IsPrefabAsset: 1
---- !u!114 &114391847408986064
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 138370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 193
-    i1: 80
-    i2: 87
-    i3: 167
-    i4: 147
-    i5: 109
-    i6: 194
-    i7: 148
-    i8: 90
-    i9: 253
-    i10: 177
-    i11: 232
-    i12: 7
-    i13: 204
-    i14: 97
-    i15: 175
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
+  m_IsPrefabParent: 1

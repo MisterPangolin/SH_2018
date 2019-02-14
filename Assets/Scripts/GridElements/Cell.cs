@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 
 /// <summary>
 /// Elément de la grille, permettant de représenter le sol. Chaque chunk est divisé en un certain nombre de cellules,
@@ -8,7 +9,7 @@ using UnityEngine;
 /// Chaque tableau de features est de taille 16, chaque 16eme de la cellule pouvant contenir une fois chaque type de
 /// feature.
 /// </summary>
-public class Cell : MonoBehaviour {
+public class Cell : NetworkBehaviour {
 
 	//propriétés et composants de la cellule
 	public Coordinates coordinates;
@@ -304,7 +305,8 @@ public class Cell : MonoBehaviour {
 		for (int i = 0; i < featuresCount; i++)
 		{
 			GameObject item = manager.InstantiateObject(reader.ReadInt(), ObjectType.feature);
-			Feature feature = item.GetComponent<Feature>();
+            NetworkServer.Spawn(item);
+            Feature feature = item.GetComponent<Feature>();
 			feature.orientation = (SquareDirection)reader.ReadInt();
 			feature.BasePart = reader.ReadInt();
 			feature.AddFeature(this, feature.BasePart);
@@ -324,7 +326,8 @@ public class Cell : MonoBehaviour {
 		for (int i = 0; i < floorCount; i++)
 		{
 			GameObject item = manager.InstantiateObject(reader.ReadInt(), ObjectType.feature);
-			Feature feature = item.GetComponent<Feature>();
+            NetworkServer.Spawn(item);
+            Feature feature = item.GetComponent<Feature>();
 			feature.orientation = (SquareDirection)reader.ReadInt();
 			feature.BasePart = reader.ReadInt();
 			feature.AddFeature(this, feature.BasePart);
@@ -345,7 +348,8 @@ public class Cell : MonoBehaviour {
 		{
 			GameObject item = manager.InstantiateObject(reader.ReadInt(), ObjectType.feature);
 			Feature feature = item.GetComponent<Feature>();
-			feature.orientation = (SquareDirection)reader.ReadInt();
+            NetworkServer.Spawn(item);
+            feature.orientation = (SquareDirection)reader.ReadInt();
 			feature.BasePart = reader.ReadInt();
 			feature.AddFeature(this, feature.BasePart);
 		}

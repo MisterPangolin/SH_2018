@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 54542610883764454}
   - component: {fileID: 114061300134991570}
   - component: {fileID: 65230755784550634}
+  - component: {fileID: 114234010891362838}
+  - component: {fileID: 114814599411637710}
   m_Layer: 0
   m_Name: Book_Set
   m_TagString: Untagged
@@ -147,3 +149,56 @@ MonoBehaviour:
   hasDevice: 0
   device: {fileID: 0}
   category: 6
+--- !u!114 &114234010891362838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1188399901600692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 122
+    i1: 251
+    i2: 206
+    i3: 197
+    i4: 83
+    i5: 217
+    i6: 100
+    i7: 43
+    i8: 10
+    i9: 230
+    i10: 69
+    i11: 110
+    i12: 21
+    i13: 17
+    i14: 145
+    i15: 34
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114814599411637710
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1188399901600692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05

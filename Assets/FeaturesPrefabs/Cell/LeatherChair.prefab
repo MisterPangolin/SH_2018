@@ -24,7 +24,8 @@ GameObject:
   - component: {fileID: 65935168503928410}
   - component: {fileID: 65613109077593832}
   - component: {fileID: 114540650227789954}
-  - component: {fileID: 114410095771963740}
+  - component: {fileID: 114272916661596348}
+  - component: {fileID: 114534017505037470}
   m_Layer: 0
   m_Name: LeatherChair
   m_TagString: Untagged
@@ -111,7 +112,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.6, y: 0.45, z: 0.6}
   m_Center: {x: 0, y: 0.24, z: -0.008410946}
---- !u!114 &114410095771963740
+--- !u!114 &114272916661596348
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,6 +144,27 @@ MonoBehaviour:
     i15: 117
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!114 &114534017505037470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1406831749165970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
 --- !u!114 &114540650227789954
 MonoBehaviour:
   m_ObjectHideFlags: 1

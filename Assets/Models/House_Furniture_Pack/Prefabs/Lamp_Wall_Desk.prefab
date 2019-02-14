@@ -3,9 +3,9 @@
 --- !u!1 &134900
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
   - component: {fileID: 489680}
   - component: {fileID: 3336116}
@@ -21,14 +21,13 @@ GameObject:
 --- !u!1 &172268
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
   - component: {fileID: 489632}
   - component: {fileID: 3337492}
   - component: {fileID: 2358276}
-  - component: {fileID: 114685811924333326}
   m_Layer: 0
   m_Name: Lamp_Wall_Desk
   m_TagString: Untagged
@@ -39,7 +38,7 @@ GameObject:
 --- !u!4 &489632
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 172268}
   m_LocalRotation: {x: 0.000000021855694, y: 1.9106855e-15, z: 0.00000008742278, w: 1}
@@ -53,7 +52,7 @@ Transform:
 --- !u!4 &489680
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 134900}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -66,7 +65,7 @@ Transform:
 --- !u!23 &2311988
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 134900}
   m_Enabled: 1
@@ -76,7 +75,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: bcff750732c6d724f91505da985e180b, type: 2}
   m_StaticBatchInfo:
@@ -101,7 +99,7 @@ MeshRenderer:
 --- !u!23 &2358276
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 172268}
   m_Enabled: 1
@@ -111,7 +109,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: bcff750732c6d724f91505da985e180b, type: 2}
   m_StaticBatchInfo:
@@ -136,21 +133,21 @@ MeshRenderer:
 --- !u!33 &3336116
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 134900}
   m_Mesh: {fileID: 4300002, guid: 0fde5f414ccbdd8488e8ed75da10fa29, type: 3}
 --- !u!33 &3337492
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 172268}
   m_Mesh: {fileID: 4300000, guid: 0fde5f414ccbdd8488e8ed75da10fa29, type: 3}
 --- !u!65 &6531414
 BoxCollider:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 134900}
   m_Material: {fileID: 0}
@@ -167,38 +164,6 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
+  m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 172268}
-  m_IsPrefabAsset: 1
---- !u!114 &114685811924333326
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 172268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 205
-    i1: 33
-    i2: 160
-    i3: 61
-    i4: 76
-    i5: 180
-    i6: 235
-    i7: 116
-    i8: 248
-    i9: 210
-    i10: 236
-    i11: 173
-    i12: 136
-    i13: 196
-    i14: 136
-    i15: 111
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
+  m_IsPrefabParent: 1

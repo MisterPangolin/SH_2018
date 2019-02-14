@@ -40,7 +40,8 @@ GameObject:
   - component: {fileID: 23129970790821672}
   - component: {fileID: 114981992022168714}
   - component: {fileID: 65295615356249230}
-  - component: {fileID: 114682526648074340}
+  - component: {fileID: 114139321304732694}
+  - component: {fileID: 114354204555887332}
   m_Layer: 0
   m_Name: Chest_of_drawers_1
   m_TagString: Untagged
@@ -141,21 +142,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2823132, y: 0.002832413, z: 0.4706682}
   m_Center: {x: -0.0000052452087, y: 0.632109, z: -0.0105881}
---- !u!114 &114489080116456562
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1515470081847658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f693ded22c2fd4da38cd6e288d146488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  surface: {fileID: 65868803562233430}
-  vertex: []
-  yOffset: {x: 0, y: 0, z: 0}
---- !u!114 &114682526648074340
+--- !u!114 &114139321304732694
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -187,6 +174,41 @@ MonoBehaviour:
     i15: 199
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!114 &114354204555887332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1970994166413262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
+--- !u!114 &114489080116456562
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1515470081847658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f693ded22c2fd4da38cd6e288d146488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surface: {fileID: 65868803562233430}
+  vertex: []
+  yOffset: {x: 0, y: 0, z: 0}
 --- !u!114 &114981992022168714
 MonoBehaviour:
   m_ObjectHideFlags: 1

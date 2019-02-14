@@ -56,6 +56,8 @@ GameObject:
   - component: {fileID: 4880071410698664}
   - component: {fileID: 54187513222922582}
   - component: {fileID: 114708366419744394}
+  - component: {fileID: 114309903412255084}
+  - component: {fileID: 114640711969584484}
   m_Layer: 0
   m_Name: spirometre
   m_TagString: Untagged
@@ -389,6 +391,59 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.7823782, y: 6.7626057, z: 2.3146899}
   m_Center: {x: 5.4272503e-10, y: 0.00031328146, z: 1.1654934}
+--- !u!114 &114309903412255084
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1557537047751706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 161
+    i1: 21
+    i2: 249
+    i3: 37
+    i4: 144
+    i5: 115
+    i6: 212
+    i7: 99
+    i8: 187
+    i9: 68
+    i10: 238
+    i11: 216
+    i12: 240
+    i13: 47
+    i14: 91
+    i15: 51
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114640711969584484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1557537047751706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
 --- !u!114 &114708366419744394
 MonoBehaviour:
   m_ObjectHideFlags: 1

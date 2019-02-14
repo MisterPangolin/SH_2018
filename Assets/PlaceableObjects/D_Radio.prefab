@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 54785449698986604}
   - component: {fileID: 114871319300341170}
   - component: {fileID: 65413551623896426}
+  - component: {fileID: 114061097295885456}
+  - component: {fileID: 114198028399744636}
   m_Layer: 0
   m_Name: D_Radio
   m_TagString: Untagged
@@ -126,6 +128,59 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.40283588, y: 0.25535282, z: 0.1326405}
   m_Center: {x: 0, y: 0.12743221, z: -0.000000007450582}
+--- !u!114 &114061097295885456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1103104695624998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 60
+    i1: 167
+    i2: 37
+    i3: 96
+    i4: 113
+    i5: 142
+    i6: 164
+    i7: 69
+    i8: 123
+    i9: 6
+    i10: 175
+    i11: 145
+    i12: 82
+    i13: 207
+    i14: 43
+    i15: 246
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114198028399744636
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1103104695624998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
 --- !u!114 &114871319300341170
 MonoBehaviour:
   m_ObjectHideFlags: 1

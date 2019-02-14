@@ -3,14 +3,13 @@
 --- !u!1 &188432
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
   - component: {fileID: 411880}
   - component: {fileID: 3389668}
   - component: {fileID: 2395220}
-  - component: {fileID: 114232329173657872}
   m_Layer: 0
   m_Name: Lamp 2
   m_TagString: Untagged
@@ -21,7 +20,7 @@ GameObject:
 --- !u!4 &411880
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188432}
   m_LocalRotation: {x: -0.6314964, y: 0.31813878, z: 0.31813878, w: 0.6314964}
@@ -34,7 +33,7 @@ Transform:
 --- !u!23 &2395220
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188432}
   m_Enabled: 1
@@ -44,7 +43,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 6a0db8348d78cba42a7d8fd9d0210578, type: 2}
   - {fileID: 2100000, guid: 7fdc060a113746b429828e2f58164ce7, type: 2}
@@ -70,7 +68,7 @@ MeshRenderer:
 --- !u!33 &3389668
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188432}
   m_Mesh: {fileID: 4300000, guid: 8a5135ff120d4bf45aa052d6c5d47c6f, type: 3}
@@ -82,38 +80,6 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
+  m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 188432}
-  m_IsPrefabAsset: 1
---- !u!114 &114232329173657872
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 188432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 186
-    i1: 102
-    i2: 46
-    i3: 216
-    i4: 143
-    i5: 152
-    i6: 182
-    i7: 212
-    i8: 216
-    i9: 226
-    i10: 40
-    i11: 30
-    i12: 5
-    i13: 164
-    i14: 23
-    i15: 112
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
+  m_IsPrefabParent: 1

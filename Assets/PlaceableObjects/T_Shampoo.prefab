@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 54086187040646928}
   - component: {fileID: 114767810740981086}
   - component: {fileID: 65217538861198570}
+  - component: {fileID: 114319863144357926}
+  - component: {fileID: 114386805802586962}
   m_Layer: 0
   m_Name: T_Shampoo
   m_TagString: Untagged
@@ -126,6 +128,59 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.06380859, y: 0, z: 0.06380861}
   m_Center: {x: 0, y: -0.00007343292, z: 0.00000012814999}
+--- !u!114 &114319863144357926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1179439762049948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 197
+    i1: 170
+    i2: 241
+    i3: 210
+    i4: 251
+    i5: 67
+    i6: 212
+    i7: 244
+    i8: 218
+    i9: 207
+    i10: 39
+    i11: 82
+    i12: 92
+    i13: 135
+    i14: 175
+    i15: 234
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114386805802586962
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1179439762049948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
 --- !u!114 &114767810740981086
 MonoBehaviour:
   m_ObjectHideFlags: 1

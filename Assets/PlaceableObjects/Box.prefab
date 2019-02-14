@@ -26,6 +26,10 @@ GameObject:
   - component: {fileID: 54395351031224936}
   - component: {fileID: 114775977788078168}
   - component: {fileID: 114251055922752246}
+  - component: {fileID: 114505151705054842}
+  - component: {fileID: 114068216177394042}
+  - component: {fileID: 114278682096196692}
+  - component: {fileID: 114165868124764850}
   m_Layer: 0
   m_Name: Box
   m_TagString: Untagged
@@ -129,6 +133,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.9687778, y: 5.5118127, z: 0}
   m_Center: {x: 0.19698732, y: 3.944001e-21, z: 0.00000035972312}
+--- !u!114 &114068216177394042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1963261419438812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c472462f99559d48bb0aebe5228da8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114165868124764850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1963261419438812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
 --- !u!114 &114251055922752246
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -144,7 +180,7 @@ MonoBehaviour:
   objectName: Hub
   objectDescription: "Concentre les donn\xE9es r\xE9colt\xE9es dans la maison afin
     de permettre leur traitement"
-  use: 
+  objectIndications: 
   colliders: []
   isDestroyed: 0
   cameraPlayer: {fileID: 0}
@@ -154,6 +190,61 @@ MonoBehaviour:
   homePIndex: 
   healthParameters: []
   healthPIndex: 
+--- !u!114 &114278682096196692
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1963261419438812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 18
+    i1: 16
+    i2: 182
+    i3: 21
+    i4: 196
+    i5: 193
+    i6: 100
+    i7: 134
+    i8: 122
+    i9: 169
+    i10: 93
+    i11: 254
+    i12: 52
+    i13: 249
+    i14: 127
+    i15: 103
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114505151705054842
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1963261419438812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateActionSetOnAttach: {fileID: 0}
+  hideHandOnAttach: 1
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  handFollowTransform: {fileID: 0}
+  handFollowTransformPosition: 1
+  handFollowTransformRotation: 1
+  highlightOnHover: 1
+  hideHighlight: []
 --- !u!114 &114775977788078168
 MonoBehaviour:
   m_ObjectHideFlags: 1

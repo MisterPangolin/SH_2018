@@ -77,7 +77,8 @@ GameObject:
   - component: {fileID: 65012325901562180}
   - component: {fileID: 65301055508096870}
   - component: {fileID: 65789745220737192}
-  - component: {fileID: 114487535660624094}
+  - component: {fileID: 114335446249028832}
+  - component: {fileID: 114329497166182692}
   m_Layer: 0
   m_Name: To_ToiletShelf
   m_TagString: Untagged
@@ -337,7 +338,28 @@ MonoBehaviour:
   surface: {fileID: 65992268193294604}
   vertex: []
   yOffset: {x: 0, y: 0, z: 0}
---- !u!114 &114487535660624094
+--- !u!114 &114329497166182692
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1513063831722226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
+--- !u!114 &114335446249028832
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

@@ -40,7 +40,10 @@ GameObject:
   - component: {fileID: 65562113736967658}
   - component: {fileID: 114916249114584552}
   - component: {fileID: 114892989973307532}
-  - component: {fileID: 114038232606404594}
+  - component: {fileID: 114957783127483904}
+  - component: {fileID: 114393050868756888}
+  - component: {fileID: 114868458393332558}
+  - component: {fileID: 114903830387705872}
   m_Layer: 0
   m_Name: Mirror
   m_TagString: Untagged
@@ -129,7 +132,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.7, y: 0.7, z: 0.02000003}
   m_Center: {x: 0, y: 0, z: -9.313226e-10}
---- !u!114 &114038232606404594
+--- !u!114 &114393050868756888
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1788198473015894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateActionSetOnAttach: {fileID: 0}
+  hideHandOnAttach: 1
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  handFollowTransform: {fileID: 0}
+  handFollowTransformPosition: 1
+  handFollowTransformRotation: 1
+  highlightOnHover: 1
+  hideHighlight: []
+--- !u!114 &114868458393332558
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -186,6 +212,27 @@ MonoBehaviour:
   healthParameters:
   - {fileID: 11400000, guid: 406071ce7833545c8a26ef88fd5c8894, type: 2}
   healthPIndex: 
+--- !u!114 &114903830387705872
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1788198473015894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
 --- !u!114 &114916249114584552
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -209,6 +256,17 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 2
+--- !u!114 &114957783127483904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1788198473015894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c472462f99559d48bb0aebe5228da8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!215 &215340382001477946
 ReflectionProbe:
   m_ObjectHideFlags: 1

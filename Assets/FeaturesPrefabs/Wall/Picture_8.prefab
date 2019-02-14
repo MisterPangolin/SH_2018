@@ -55,7 +55,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4721623537549570}
   - component: {fileID: 114912743043715324}
-  - component: {fileID: 114293689950327562}
+  - component: {fileID: 114746669429877328}
+  - component: {fileID: 114306835807977650}
   m_Layer: 0
   m_Name: Picture_8
   m_TagString: Untagged
@@ -273,7 +274,28 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.26776588, y: 0.40066552, z: 0.0051061083}
   m_Center: {x: -0.000000037252903, y: 0.000000059604645, z: -0.0000000033760443}
---- !u!114 &114293689950327562
+--- !u!114 &114306835807977650
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1373278814450956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
+--- !u!114 &114746669429877328
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

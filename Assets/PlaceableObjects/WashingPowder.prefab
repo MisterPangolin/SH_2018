@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 54965103283031464}
   - component: {fileID: 114273631109953432}
   - component: {fileID: 65646290285547624}
+  - component: {fileID: 114525504682485468}
+  - component: {fileID: 114748281203621168}
   m_Layer: 0
   m_Name: WashingPowder
   m_TagString: Untagged
@@ -147,3 +149,56 @@ MonoBehaviour:
   hasDevice: 0
   device: {fileID: 0}
   category: 2
+--- !u!114 &114525504682485468
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1302189497034816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 229
+    i1: 143
+    i2: 224
+    i3: 145
+    i4: 209
+    i5: 74
+    i6: 228
+    i7: 18
+    i8: 234
+    i9: 251
+    i10: 233
+    i11: 211
+    i12: 77
+    i13: 139
+    i14: 45
+    i15: 135
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114748281203621168
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1302189497034816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05

@@ -41,6 +41,10 @@ GameObject:
   - component: {fileID: 114946792180900036}
   - component: {fileID: 54199685080828636}
   - component: {fileID: 114247018746851732}
+  - component: {fileID: 114705448105502948}
+  - component: {fileID: 114936056703270542}
+  - component: {fileID: 114766034746483042}
+  - component: {fileID: 114191916280365998}
   m_Layer: 0
   m_Name: thermometre
   m_TagString: Untagged
@@ -303,6 +307,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.054122288, y: 0.2077737, z: 0.05132895}
   m_Center: {x: 0.0014662105, y: 0.10435823, z: -0.00034415725}
+--- !u!114 &114191916280365998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1428294475604590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
 --- !u!114 &114247018746851732
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -317,7 +342,7 @@ MonoBehaviour:
   index: 0
   objectName: thermo
   objectDescription: t
-  use: t
+  objectIndications: 
   colliders: []
   isDestroyed: 0
   cameraPlayer: {fileID: 0}
@@ -328,6 +353,72 @@ MonoBehaviour:
   healthParameters:
   - {fileID: 11400000, guid: 406071ce7833545c8a26ef88fd5c8894, type: 2}
   healthPIndex: 
+--- !u!114 &114705448105502948
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1428294475604590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateActionSetOnAttach: {fileID: 0}
+  hideHandOnAttach: 1
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  handFollowTransform: {fileID: 0}
+  handFollowTransformPosition: 1
+  handFollowTransformRotation: 1
+  highlightOnHover: 1
+  hideHighlight: []
+--- !u!114 &114766034746483042
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1428294475604590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 152
+    i1: 116
+    i2: 35
+    i3: 144
+    i4: 199
+    i5: 170
+    i6: 68
+    i7: 78
+    i8: 138
+    i9: 218
+    i10: 124
+    i11: 218
+    i12: 27
+    i13: 248
+    i14: 110
+    i15: 129
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114936056703270542
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1428294475604590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c472462f99559d48bb0aebe5228da8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114946792180900036
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -347,5 +438,5 @@ MonoBehaviour:
   vertex: []
   sprite: {fileID: 21300000, guid: 6a8d32bd3d51a45a38784d6b8f3584c4, type: 3}
   hasDevice: 0
-  device: {fileID: 0}
+  device: {fileID: 114247018746851732}
   category: 5

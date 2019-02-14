@@ -24,7 +24,8 @@ GameObject:
   - component: {fileID: 65437500842259238}
   - component: {fileID: 65810491720572904}
   - component: {fileID: 114773004990323026}
-  - component: {fileID: 114965994471876438}
+  - component: {fileID: 114992963200153690}
+  - component: {fileID: 114491789163411914}
   m_Layer: 0
   m_Name: Sofa_House_A
   m_TagString: Untagged
@@ -197,6 +198,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.23, y: 0.89300597, z: 0.6299751}
   m_Center: {x: -0.27, y: 0.44634438, z: -0.000000014901161}
+--- !u!114 &114491789163411914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1226328415438334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
 --- !u!114 &114773004990323026
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -220,7 +242,7 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 0
---- !u!114 &114965994471876438
+--- !u!114 &114992963200153690
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

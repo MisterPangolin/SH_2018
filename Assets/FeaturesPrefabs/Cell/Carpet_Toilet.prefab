@@ -23,7 +23,8 @@ GameObject:
   - component: {fileID: 23953096253048960}
   - component: {fileID: 114095383983028950}
   - component: {fileID: 65212791541460968}
-  - component: {fileID: 114633926190240544}
+  - component: {fileID: 114924447853904850}
+  - component: {fileID: 114859115315990490}
   m_Layer: 0
   m_Name: Carpet_Toilet
   m_TagString: Floor
@@ -121,7 +122,28 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 6
---- !u!114 &114633926190240544
+--- !u!114 &114859115315990490
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1825778663208380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
+--- !u!114 &114924447853904850
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

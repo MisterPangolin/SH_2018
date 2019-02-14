@@ -40,6 +40,8 @@ GameObject:
   - component: {fileID: 4569911660636766}
   - component: {fileID: 54737256186431374}
   - component: {fileID: 114468790031863534}
+  - component: {fileID: 114780004558522392}
+  - component: {fileID: 114780000955593324}
   m_Layer: 0
   m_Name: Coffee 1
   m_TagString: Untagged
@@ -176,3 +178,56 @@ MonoBehaviour:
   hasDevice: 0
   device: {fileID: 0}
   category: 1
+--- !u!114 &114780000955593324
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1858323576140174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
+--- !u!114 &114780004558522392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1858323576140174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 64
+    i1: 87
+    i2: 53
+    i3: 50
+    i4: 85
+    i5: 104
+    i6: 244
+    i7: 90
+    i8: 107
+    i9: 242
+    i10: 92
+    i11: 108
+    i12: 91
+    i13: 171
+    i14: 200
+    i15: 172
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

@@ -13,9 +13,11 @@ public class Character : PersistableObject {
 	public string surname;
 	public string birthday;
 	public string adress;
-	public string health;
+    public float weight = 75.80f;
+    public string health;
 	public int index;
-	public HealthInformation[] chronics;
+
+    public HealthInformation[] chronics;
 
 	// Liste des paramètres de santé et data
 	public HealthInformationsList chronicsList;
@@ -50,6 +52,7 @@ public class Character : PersistableObject {
 		writer.Write(surname);
 		writer.Write(birthday);
 		writer.Write(adress);
+        writer.Write(weight);
 		writer.Write(health);
 		writer.Write(chronics.Length);
 		foreach (HealthInformation i in chronics)
@@ -76,6 +79,14 @@ public class Character : PersistableObject {
 		}
 	}
 
+    /// <summary>
+    /// permet de récupérer le poids pour la balance nottament
+    /// </summary>
+    /// <returns></returns>
+    public float GetWeight()
+    {
+        return weight;
+    }
 	/// <summary>
 	/// Charge les informations du profil.
 	/// </summary>
@@ -86,6 +97,7 @@ public class Character : PersistableObject {
 		surname = reader.ReadString();
 		birthday = reader.ReadString();
 		adress = reader.ReadString();
+        weight = reader.ReadFloat();
 		health = reader.ReadString();
 		chronics = new HealthInformation[reader.ReadInt()];
 		healthPrms = new List<HealthParameter>();
@@ -203,7 +215,8 @@ public class Character : PersistableObject {
 		character.surname = surname;
 		character.birthday = birthday;
 		character.adress = adress;
-		character.health = health;
+        character.weight = weight;
+        character.health = health;
 		character.chronics = chronics;
 		character.healthPrms = healthPrms;
 		character.homePrms = homePrms;

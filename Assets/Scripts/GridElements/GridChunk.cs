@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.Networking;
 
 /// <summary>
 /// Elément de base de la grille. Chaque grille est divisée en un certain nombre de chunks, donné par les dimensions x 
@@ -8,7 +7,7 @@ using UnityEngine.Networking;
 /// Diviser la grille en chunks permet de rafraîchir seulement une partie de la grille lorsque c'est nécessaire, évitant
 /// ainsi des opérations inutiles.
 /// </summary>
-public class GridChunk : NetworkBehaviour {
+public class GridChunk : MonoBehaviour {
 
 	//éléments du chunk
 	Cell[] cells;
@@ -285,7 +284,7 @@ public class GridChunk : NetworkBehaviour {
 		{
 			Triangulate(d, dot);
 		}
-		wallsManager.CmdAddWallWedge(dot);
+		wallsManager.AddWallWedge(dot);
 	}
 
 	/// <summary>
@@ -298,7 +297,7 @@ public class GridChunk : NetworkBehaviour {
 		Wall wall = dot.GetWall(direction);
 		if (dot.isWalled(direction))
 		{
-			wallsManager.CmdAddWall(wall, direction);
+			wallsManager.AddWall(wall, direction);
 		}
 	}
 

@@ -61,7 +61,8 @@ GameObject:
   - component: {fileID: 65118675728007028}
   - component: {fileID: 65069318945379228}
   - component: {fileID: 65589843222675362}
-  - component: {fileID: 114536735904043824}
+  - component: {fileID: 114187492905643166}
+  - component: {fileID: 114999396096008614}
   m_Layer: 0
   m_Name: Garage_Shelf
   m_TagString: Untagged
@@ -365,6 +366,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2945652, y: 0.010021409, z: 0.39807263}
   m_Center: {x: -0.0029786823, y: 0.25043517, z: -0.00037143627}
+--- !u!114 &114187492905643166
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1310155705500294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 197
+    i1: 186
+    i2: 110
+    i3: 236
+    i4: 143
+    i5: 123
+    i6: 164
+    i7: 59
+    i8: 170
+    i9: 76
+    i10: 131
+    i11: 116
+    i12: 200
+    i13: 27
+    i14: 123
+    i15: 181
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114228225006487842
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -407,38 +440,6 @@ MonoBehaviour:
   surface: {fileID: 65904479293550666}
   vertex: []
   yOffset: {x: 0, y: 0, z: 0}
---- !u!114 &114536735904043824
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1310155705500294}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 197
-    i1: 186
-    i2: 110
-    i3: 236
-    i4: 143
-    i5: 123
-    i6: 164
-    i7: 59
-    i8: 170
-    i9: 76
-    i10: 131
-    i11: 116
-    i12: 200
-    i13: 27
-    i14: 123
-    i15: 181
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
 --- !u!114 &114742100191551532
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -490,3 +491,24 @@ MonoBehaviour:
   surface: {fileID: 65230358145770006}
   vertex: []
   yOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &114999396096008614
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1310155705500294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21

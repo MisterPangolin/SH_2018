@@ -21,7 +21,6 @@ GameObject:
   - component: {fileID: 4953412343361362}
   - component: {fileID: 33156371296485832}
   - component: {fileID: 23844266958946676}
-  - component: {fileID: 114615439116071726}
   m_Layer: 9
   m_Name: HorizontalTarget
   m_TagString: Untagged
@@ -84,35 +83,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1112029049716414}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114615439116071726
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1112029049716414}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 92
-    i1: 141
-    i2: 247
-    i3: 117
-    i4: 255
-    i5: 162
-    i6: 228
-    i7: 233
-    i8: 217
-    i9: 55
-    i10: 127
-    i11: 8
-    i12: 189
-    i13: 16
-    i14: 94
-    i15: 11
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0

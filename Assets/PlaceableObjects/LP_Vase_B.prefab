@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 54500824304186210}
   - component: {fileID: 114100255309422108}
   - component: {fileID: 65109690694982154}
+  - component: {fileID: 114676347362654664}
+  - component: {fileID: 114048820008822490}
   m_Layer: 0
   m_Name: LP_Vase_B
   m_TagString: Untagged
@@ -126,6 +128,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.12439659, y: 0.18378806, z: 0.12439656}
   m_Center: {x: 0.000000039115548, y: 0.092087954, z: 0.0000000055879354}
+--- !u!114 &114048820008822490
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1445709468797480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
 --- !u!114 &114100255309422108
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -157,3 +180,35 @@ MonoBehaviour:
   hasDevice: 0
   device: {fileID: 0}
   category: 6
+--- !u!114 &114676347362654664
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1445709468797480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 169
+    i1: 121
+    i2: 221
+    i3: 167
+    i4: 47
+    i5: 191
+    i6: 228
+    i7: 8
+    i8: 232
+    i9: 246
+    i10: 180
+    i11: 155
+    i12: 93
+    i13: 124
+    i14: 93
+    i15: 73
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

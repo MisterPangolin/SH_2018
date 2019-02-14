@@ -112,6 +112,7 @@ GameObject:
   - component: {fileID: 4506996221566838}
   - component: {fileID: 114528908904376504}
   - component: {fileID: 114486735485865846}
+  - component: {fileID: 114435585676342718}
   m_Layer: 0
   m_Name: Square Grid
   m_TagString: Untagged
@@ -369,6 +370,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   floor: {fileID: 114528908904376504}
+--- !u!114 &114435585676342718
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1913127219217242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c71d52c8d1f5d4b4fba3185511c7182e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plan: {fileID: 1757571761548104, guid: 4389a6679ff1e1f4ca8fecf31c82f432, type: 2}
 --- !u!114 &114486388352871492
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -439,8 +452,8 @@ MonoBehaviour:
   wallStorage: {fileID: 114955478134095990}
   elevation: 0
   level: 0
+  canvas: {fileID: 0}
   baker: {fileID: 0}
-  editor: {fileID: 0}
 --- !u!114 &114561864000042322
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -497,7 +510,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cf697b055a814bb096d2b5e08cca58e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  editor: {fileID: 0}
 --- !u!223 &223188359914574884
 Canvas:
   m_ObjectHideFlags: 1

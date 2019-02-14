@@ -191,6 +191,7 @@ public class CameraSwitch : MonoBehaviour {
 				{
 					if (floor)
 					{
+                        floor.gameObject.transform.GetChild(5).GetComponent<MeshCollider>().enabled = true;
 						floor.Refresh();
 						floor.InteractableUnder(false);
 						floor.EnableFloorCollider(true);
@@ -219,7 +220,8 @@ public class CameraSwitch : MonoBehaviour {
 				{
 					if (floor)
 					{
-						floor.DesuniteMesh();
+                        floor.gameObject.transform.GetChild(5).GetComponent<MeshCollider>().enabled = false;
+                        floor.DesuniteMesh();
 						floor.Refresh();
 						floor.EnableFloorCollider(false);
 						floor.EnableFeaturesCollider(false);

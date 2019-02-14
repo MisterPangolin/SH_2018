@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 54913877503019634}
   - component: {fileID: 114736974783388722}
   - component: {fileID: 65750270818761770}
+  - component: {fileID: 114722393953286118}
+  - component: {fileID: 114203214472000224}
   m_Layer: 0
   m_Name: KP_StorageCup_Small
   m_TagString: Untagged
@@ -126,6 +128,59 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.14544259, y: 0.0023114204, z: 0.14323299}
   m_Center: {x: 0.00000003576279, y: 0.0011557102, z: 0}
+--- !u!114 &114203214472000224
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1928531052905112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
+--- !u!114 &114722393953286118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1928531052905112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 112
+    i1: 107
+    i2: 1
+    i3: 38
+    i4: 85
+    i5: 27
+    i6: 180
+    i7: 224
+    i8: 250
+    i9: 26
+    i10: 89
+    i11: 100
+    i12: 32
+    i13: 0
+    i14: 127
+    i15: 169
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114736974783388722
 MonoBehaviour:
   m_ObjectHideFlags: 1

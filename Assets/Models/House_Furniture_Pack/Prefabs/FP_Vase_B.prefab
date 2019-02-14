@@ -3,15 +3,14 @@
 --- !u!1 &156224
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
   - component: {fileID: 498930}
   - component: {fileID: 3301242}
   - component: {fileID: 2374744}
   - component: {fileID: 6544498}
-  - component: {fileID: 114087843210388456}
   m_Layer: 0
   m_Name: FP_Vase_B
   m_TagString: Untagged
@@ -22,7 +21,7 @@ GameObject:
 --- !u!4 &498930
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 156224}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -35,7 +34,7 @@ Transform:
 --- !u!23 &2374744
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 156224}
   m_Enabled: 1
@@ -45,7 +44,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 8fa8dc804edd69346908c7dee1a422a2, type: 2}
   m_StaticBatchInfo:
@@ -70,14 +68,14 @@ MeshRenderer:
 --- !u!33 &3301242
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 156224}
   m_Mesh: {fileID: 4300000, guid: ba25080cb4785c2449400ff66d2d60dd, type: 3}
 --- !u!65 &6544498
 BoxCollider:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 156224}
   m_Material: {fileID: 0}
@@ -94,38 +92,6 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
+  m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 156224}
-  m_IsPrefabAsset: 1
---- !u!114 &114087843210388456
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 156224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 104
-    i1: 26
-    i2: 119
-    i3: 230
-    i4: 208
-    i5: 120
-    i6: 216
-    i7: 164
-    i8: 88
-    i9: 20
-    i10: 185
-    i11: 211
-    i12: 187
-    i13: 76
-    i14: 162
-    i15: 66
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
+  m_IsPrefabParent: 1

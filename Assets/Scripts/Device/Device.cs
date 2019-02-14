@@ -34,6 +34,10 @@ public class Device : MonoBehaviour
 	[HideInInspector]
 	public Camera cameraOverview;
 
+    // paramètre de position du panneau d'information
+    public float Y;
+
+
 	// paramètres suivis par l'objet
 	public HomeParameter[] homeParameters;
 	[HideInInspector]

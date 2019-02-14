@@ -25,7 +25,10 @@ GameObject:
   - component: {fileID: 208438334558101530}
   - component: {fileID: 114365983017601652}
   - component: {fileID: 114778793169191838}
-  - component: {fileID: 114799919219920702}
+  - component: {fileID: 114195998389153488}
+  - component: {fileID: 114199315442811034}
+  - component: {fileID: 114671955435149380}
+  - component: {fileID: 114617233106047420}
   m_Layer: 0
   m_Name: BedQueen
   m_TagString: Untagged
@@ -102,6 +105,40 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300004, guid: b583f84f7f22d0244b7b3d789df0a9e9, type: 3}
+--- !u!114 &114195998389153488
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023241785556130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c472462f99559d48bb0aebe5228da8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114199315442811034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023241785556130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateActionSetOnAttach: {fileID: 0}
+  hideHandOnAttach: 1
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  handFollowTransform: {fileID: 0}
+  handFollowTransformPosition: 1
+  handFollowTransformRotation: 1
+  highlightOnHover: 1
+  hideHighlight: []
 --- !u!114 &114365983017601652
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -125,7 +162,7 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 3
---- !u!114 &114778793169191838
+--- !u!114 &114617233106047420
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -133,22 +170,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1023241785556130}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 139d9d4b2f13449628b29942bdb5e881, type: 3}
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 0
-  objectName: lit
-  objectDescription: a
-  objectIndications: 
-  colliders: []
-  isDestroyed: 0
-  cameraPlayer: {fileID: 0}
-  cameraOverview: {fileID: 0}
-  homeParameters: []
-  homePIndex: 
-  healthParameters: []
-  healthPIndex: 
---- !u!114 &114799919219920702
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
+--- !u!114 &114671955435149380
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -180,6 +215,29 @@ MonoBehaviour:
     i15: 143
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!114 &114778793169191838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1023241785556130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 139d9d4b2f13449628b29942bdb5e881, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  index: 0
+  objectName: lit
+  objectDescription: a
+  objectIndications: 
+  colliders: []
+  isDestroyed: 0
+  cameraPlayer: {fileID: 0}
+  cameraOverview: {fileID: 0}
+  homeParameters: []
+  homePIndex: 
+  healthParameters: []
+  healthPIndex: 
 --- !u!208 &208438334558101530
 NavMeshObstacle:
   m_ObjectHideFlags: 1

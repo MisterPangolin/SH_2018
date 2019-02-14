@@ -42,7 +42,8 @@ GameObject:
   - component: {fileID: 114129532462626620}
   - component: {fileID: 65758494629288306}
   - component: {fileID: 208930046274888470}
-  - component: {fileID: 114795170155038352}
+  - component: {fileID: 114407655975034956}
+  - component: {fileID: 114291623455721700}
   m_Layer: 0
   m_Name: Sink
   m_TagString: Untagged
@@ -235,21 +236,28 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 2
---- !u!114 &114447308501959726
+--- !u!114 &114291623455721700
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1712375973181896}
+  m_GameObject: {fileID: 1813467909922474}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f693ded22c2fd4da38cd6e288d146488, type: 3}
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  surface: {fileID: 65828936615037532}
-  vertex: []
-  yOffset: {x: 0, y: 0, z: 0}
---- !u!114 &114795170155038352
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
+--- !u!114 &114407655975034956
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -281,6 +289,20 @@ MonoBehaviour:
     i15: 84
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!114 &114447308501959726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1712375973181896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f693ded22c2fd4da38cd6e288d146488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surface: {fileID: 65828936615037532}
+  vertex: []
+  yOffset: {x: 0, y: 0, z: 0}
 --- !u!208 &208930046274888470
 NavMeshObstacle:
   m_ObjectHideFlags: 1

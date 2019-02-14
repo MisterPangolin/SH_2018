@@ -23,7 +23,8 @@ GameObject:
   - component: {fileID: 23131832191911008}
   - component: {fileID: 65537828492658622}
   - component: {fileID: 114964419973043042}
-  - component: {fileID: 114546190791556314}
+  - component: {fileID: 114855723688227208}
+  - component: {fileID: 114494064757201998}
   m_Layer: 0
   m_Name: bidet
   m_TagString: Untagged
@@ -98,7 +99,28 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.4635036, y: 0.5264011, z: 0.6938445}
   m_Center: {x: 0, y: 0.26360038, z: 0}
---- !u!114 &114546190791556314
+--- !u!114 &114494064757201998
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1594124234248100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
+--- !u!114 &114855723688227208
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

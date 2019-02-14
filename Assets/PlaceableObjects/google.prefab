@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 65760148593055100}
   - component: {fileID: 54300023230147398}
   - component: {fileID: 114602755070769064}
+  - component: {fileID: 114583108948722652}
+  - component: {fileID: 114833611105881274}
   m_Layer: 0
   m_Name: google
   m_TagString: Untagged
@@ -126,6 +128,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.3285359, y: 0, z: 1.3285359}
   m_Center: {x: 0, y: -0.99999964, z: 0}
+--- !u!114 &114583108948722652
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279165693316130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 159
+    i1: 160
+    i2: 137
+    i3: 52
+    i4: 206
+    i5: 217
+    i6: 196
+    i7: 68
+    i8: 251
+    i9: 110
+    i10: 114
+    i11: 145
+    i12: 235
+    i13: 131
+    i14: 132
+    i15: 82
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114602755070769064
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -147,3 +181,24 @@ MonoBehaviour:
   hasDevice: 0
   device: {fileID: 0}
   category: 5
+--- !u!114 &114833611105881274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1279165693316130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05

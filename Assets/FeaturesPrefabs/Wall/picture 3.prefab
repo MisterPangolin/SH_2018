@@ -23,7 +23,8 @@ GameObject:
   - component: {fileID: 23683882428725836}
   - component: {fileID: 114478554013904304}
   - component: {fileID: 65356128004817106}
-  - component: {fileID: 114510639456957394}
+  - component: {fileID: 114326955290365282}
+  - component: {fileID: 114111522362853268}
   m_Layer: 0
   m_Name: picture 3
   m_TagString: Untagged
@@ -98,7 +99,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 0.6515324, z: 0.020000005}
   m_Center: {x: 0, y: 0, z: 0.000000009313226}
---- !u!114 &114478554013904304
+--- !u!114 &114111522362853268
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -106,22 +107,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1908969557604606}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 68dfc1eea3b26455daa4f1e744824778, type: 3}
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  height: 0
-  xOffset: 0
-  zOffset: 0
-  featureType: 2
-  orientation: 2
-  baseRotation: {x: 0, y: 0, z: 0}
-  blocType: 4
-  sprite: {fileID: 21300000, guid: 9a4a16aad0f6646ceab17ffa8cad0927, type: 3}
-  hasDevice: 0
-  device: {fileID: 0}
-  side: 0
-  category: 6
---- !u!114 &114510639456957394
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
+--- !u!114 &114326955290365282
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -153,3 +152,26 @@ MonoBehaviour:
     i15: 2
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!114 &114478554013904304
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1908969557604606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68dfc1eea3b26455daa4f1e744824778, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  height: 0
+  xOffset: 0
+  zOffset: 0
+  featureType: 2
+  orientation: 2
+  baseRotation: {x: 0, y: 0, z: 0}
+  blocType: 4
+  sprite: {fileID: 21300000, guid: 9a4a16aad0f6646ceab17ffa8cad0927, type: 3}
+  hasDevice: 0
+  device: {fileID: 0}
+  side: 0
+  category: 6

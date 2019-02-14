@@ -3,9 +3,9 @@
 --- !u!1 &100312
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
   - component: {fileID: 444062}
   - component: {fileID: 3344094}
@@ -21,16 +21,15 @@ GameObject:
 --- !u!1 &181022
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
   - component: {fileID: 467068}
   - component: {fileID: 3355310}
   - component: {fileID: 2365554}
   - component: {fileID: 6592356}
   - component: {fileID: 6503876}
-  - component: {fileID: 114129828948267698}
   m_Layer: 0
   m_Name: T_Toilet
   m_TagString: Untagged
@@ -41,9 +40,9 @@ GameObject:
 --- !u!1 &181552
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
   - component: {fileID: 405342}
   - component: {fileID: 3351306}
@@ -59,7 +58,7 @@ GameObject:
 --- !u!4 &405342
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 181552}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -72,7 +71,7 @@ Transform:
 --- !u!4 &444062
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100312}
   m_LocalRotation: {x: -0.04361944, y: 0, z: -0, w: 0.99904823}
@@ -85,7 +84,7 @@ Transform:
 --- !u!4 &467068
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 181022}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -100,7 +99,7 @@ Transform:
 --- !u!23 &2303680
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100312}
   m_Enabled: 1
@@ -110,7 +109,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 843e3e2d8e4733743aca04deae15a1b4, type: 2}
   m_StaticBatchInfo:
@@ -135,7 +133,7 @@ MeshRenderer:
 --- !u!23 &2365554
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 181022}
   m_Enabled: 1
@@ -145,7 +143,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 843e3e2d8e4733743aca04deae15a1b4, type: 2}
   m_StaticBatchInfo:
@@ -170,7 +167,7 @@ MeshRenderer:
 --- !u!23 &2389280
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 181552}
   m_Enabled: 1
@@ -180,7 +177,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 843e3e2d8e4733743aca04deae15a1b4, type: 2}
   m_StaticBatchInfo:
@@ -205,28 +201,28 @@ MeshRenderer:
 --- !u!33 &3344094
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100312}
   m_Mesh: {fileID: 4300004, guid: 34ce26d7c9e7c8943b8f964fedebbd66, type: 3}
 --- !u!33 &3351306
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 181552}
   m_Mesh: {fileID: 4300002, guid: 34ce26d7c9e7c8943b8f964fedebbd66, type: 3}
 --- !u!33 &3355310
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 181022}
   m_Mesh: {fileID: 4300000, guid: 34ce26d7c9e7c8943b8f964fedebbd66, type: 3}
 --- !u!65 &6503876
 BoxCollider:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 181022}
   m_Material: {fileID: 0}
@@ -238,7 +234,7 @@ BoxCollider:
 --- !u!65 &6507180
 BoxCollider:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 181552}
   m_Material: {fileID: 0}
@@ -250,7 +246,7 @@ BoxCollider:
 --- !u!65 &6589184
 BoxCollider:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100312}
   m_Material: {fileID: 0}
@@ -262,7 +258,7 @@ BoxCollider:
 --- !u!65 &6592356
 BoxCollider:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 181022}
   m_Material: {fileID: 0}
@@ -279,38 +275,6 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
+  m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 181022}
-  m_IsPrefabAsset: 1
---- !u!114 &114129828948267698
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 181022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 186
-    i1: 47
-    i2: 79
-    i3: 231
-    i4: 191
-    i5: 218
-    i6: 196
-    i7: 148
-    i8: 218
-    i9: 44
-    i10: 65
-    i11: 218
-    i12: 67
-    i13: 21
-    i14: 251
-    i15: 133
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
+  m_IsPrefabParent: 1

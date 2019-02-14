@@ -3,15 +3,14 @@
 --- !u!1 &129888
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
   - component: {fileID: 454098}
   - component: {fileID: 3369846}
   - component: {fileID: 2335398}
   - component: {fileID: 6530888}
-  - component: {fileID: 114089357665867506}
   m_Layer: 0
   m_Name: Garage_PaintBucket
   m_TagString: Untagged
@@ -22,7 +21,7 @@ GameObject:
 --- !u!4 &454098
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 129888}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -35,7 +34,7 @@ Transform:
 --- !u!23 &2335398
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 129888}
   m_Enabled: 1
@@ -45,7 +44,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 503cb0b2446af93418d4bacc6e0fcecf, type: 2}
   m_StaticBatchInfo:
@@ -70,14 +68,14 @@ MeshRenderer:
 --- !u!33 &3369846
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 129888}
   m_Mesh: {fileID: 4300000, guid: 4ff0d0bde65cecd478a95b53e03f5066, type: 3}
 --- !u!65 &6530888
 BoxCollider:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 129888}
   m_Material: {fileID: 0}
@@ -94,38 +92,6 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
+  m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 129888}
-  m_IsPrefabAsset: 1
---- !u!114 &114089357665867506
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 129888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 253
-    i1: 11
-    i2: 218
-    i3: 148
-    i4: 142
-    i5: 18
-    i6: 167
-    i7: 100
-    i8: 153
-    i9: 229
-    i10: 211
-    i11: 49
-    i12: 178
-    i13: 91
-    i14: 85
-    i15: 58
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
+  m_IsPrefabParent: 1

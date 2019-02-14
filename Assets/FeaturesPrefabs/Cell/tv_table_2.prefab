@@ -55,7 +55,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4391755775950830}
   - component: {fileID: 114183397698465854}
-  - component: {fileID: 114560549526239214}
+  - component: {fileID: 114480653762126854}
+  - component: {fileID: 114486392378867206}
   m_Layer: 0
   m_Name: tv_table_2
   m_TagString: Untagged
@@ -412,21 +413,7 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 0
---- !u!114 &114524240121098668
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1277722836371922}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f693ded22c2fd4da38cd6e288d146488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  surface: {fileID: 65321784904867508}
-  vertex: []
-  yOffset: {x: 0, y: 0, z: 0}
---- !u!114 &114560549526239214
+--- !u!114 &114480653762126854
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -458,3 +445,38 @@ MonoBehaviour:
     i15: 60
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!114 &114486392378867206
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1369086230490646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
+--- !u!114 &114524240121098668
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1277722836371922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f693ded22c2fd4da38cd6e288d146488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surface: {fileID: 65321784904867508}
+  vertex: []
+  yOffset: {x: 0, y: 0, z: 0}

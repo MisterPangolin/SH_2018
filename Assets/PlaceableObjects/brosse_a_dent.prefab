@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4366707889999210}
   - component: {fileID: 54484699069829682}
   - component: {fileID: 114191200003996836}
+  - component: {fileID: 114031630255484734}
+  - component: {fileID: 114924285792283290}
   m_Layer: 0
   m_Name: brosse_a_dent
   m_TagString: Untagged
@@ -449,6 +451,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5422117, y: 1.5187844, z: 10.1693735}
   m_Center: {x: 7.552227e-16, y: -0.0000011733198, z: 5.0846906}
+--- !u!114 &114031630255484734
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1220943717181798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 143
+    i1: 180
+    i2: 95
+    i3: 119
+    i4: 117
+    i5: 38
+    i6: 68
+    i7: 29
+    i8: 25
+    i9: 127
+    i10: 142
+    i11: 133
+    i12: 11
+    i13: 128
+    i14: 132
+    i15: 5
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114191200003996836
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -470,3 +504,24 @@ MonoBehaviour:
   hasDevice: 0
   device: {fileID: 0}
   category: 5
+--- !u!114 &114924285792283290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1220943717181798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05

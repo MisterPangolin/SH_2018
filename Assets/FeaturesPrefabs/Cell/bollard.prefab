@@ -40,7 +40,8 @@ GameObject:
   - component: {fileID: 23766930704098714}
   - component: {fileID: 65311994808556784}
   - component: {fileID: 114269464383295782}
-  - component: {fileID: 114050828902246912}
+  - component: {fileID: 114047096050213816}
+  - component: {fileID: 114979721177505922}
   m_Layer: 0
   m_Name: bollard
   m_TagString: Untagged
@@ -141,7 +142,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.40918198, y: 0.42560208, z: 0.4300255}
   m_Center: {x: -0.000000029802322, y: 0.21278968, z: -0.000000014901161}
---- !u!114 &114050828902246912
+--- !u!114 &114047096050213816
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -210,3 +211,24 @@ MonoBehaviour:
   surface: {fileID: 65271120812642350}
   vertex: []
   yOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &114979721177505922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1825086238860982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21

@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 54148872327467798}
   - component: {fileID: 114076386852117916}
   - component: {fileID: 65176074112700494}
+  - component: {fileID: 114662589430671044}
+  - component: {fileID: 114302640502891432}
   m_Layer: 0
   m_Name: D_AlarmClock
   m_TagString: Untagged
@@ -147,3 +149,56 @@ MonoBehaviour:
   hasDevice: 0
   device: {fileID: 0}
   category: 3
+--- !u!114 &114302640502891432
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1725509350290764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
+--- !u!114 &114662589430671044
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1725509350290764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 87
+    i1: 225
+    i2: 175
+    i3: 53
+    i4: 64
+    i5: 98
+    i6: 100
+    i7: 45
+    i8: 89
+    i9: 191
+    i10: 81
+    i11: 220
+    i12: 26
+    i13: 178
+    i14: 115
+    i15: 4
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

@@ -56,7 +56,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4941389753391072}
   - component: {fileID: 114633083104735016}
-  - component: {fileID: 114218457358656664}
+  - component: {fileID: 114397455561123076}
+  - component: {fileID: 114718764346272090}
   m_Layer: 0
   m_Name: Kitchen_Set
   m_TagString: Untagged
@@ -217,7 +218,7 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 97f6a0cca13e3c8489c06db340d84522, type: 3}
---- !u!114 &114218457358656664
+--- !u!114 &114397455561123076
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -272,3 +273,24 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 1
+--- !u!114 &114718764346272090
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1641101130541362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21

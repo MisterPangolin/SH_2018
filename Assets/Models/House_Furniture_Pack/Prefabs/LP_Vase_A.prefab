@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3302678}
   - component: {fileID: 2345710}
   - component: {fileID: 6585742}
-  - component: {fileID: 114582241117701858}
+  - component: {fileID: 114487898506944660}
   m_Layer: 0
   m_Name: LP_Vase_A
   m_TagString: Untagged
@@ -97,35 +97,14 @@ Prefab:
   m_SourcePrefab: {fileID: 0}
   m_RootGameObject: {fileID: 134616}
   m_IsPrefabAsset: 1
---- !u!114 &114582241117701858
+--- !u!114 &114487898506944660
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 134616}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Script: {fileID: 11500000, guid: b0c2cd222ce298845996822b244a35ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 41
-    i1: 57
-    i2: 186
-    i3: 194
-    i4: 86
-    i5: 102
-    i6: 81
-    i7: 100
-    i8: 89
-    i9: 188
-    i10: 165
-    i11: 122
-    i12: 123
-    i13: 199
-    i14: 153
-    i15: 225
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0

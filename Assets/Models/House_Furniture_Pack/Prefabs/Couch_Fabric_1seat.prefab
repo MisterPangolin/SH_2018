@@ -3,15 +3,14 @@
 --- !u!1 &179120
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 6
+  serializedVersion: 5
   m_Component:
   - component: {fileID: 430330}
   - component: {fileID: 3369500}
   - component: {fileID: 2354372}
   - component: {fileID: 6466228}
-  - component: {fileID: 114316730172003002}
   m_Layer: 0
   m_Name: Couch_Fabric_1seat
   m_TagString: Untagged
@@ -22,7 +21,7 @@ GameObject:
 --- !u!4 &430330
 Transform:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 179120}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -35,7 +34,7 @@ Transform:
 --- !u!23 &2354372
 MeshRenderer:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 179120}
   m_Enabled: 1
@@ -45,7 +44,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 03c32d5ad502b6e49bcd7c2ede83deb7, type: 2}
   m_StaticBatchInfo:
@@ -70,22 +68,22 @@ MeshRenderer:
 --- !u!33 &3369500
 MeshFilter:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 179120}
   m_Mesh: {fileID: 4300000, guid: 43d6245b0e02cce4199f7d8d167b5af2, type: 3}
 --- !u!64 &6466228
 MeshCollider:
   m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 179120}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 2
   m_Convex: 0
-  m_CookingOptions: 14
+  m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: b6ead5696b0c4ae44b203a7bf5d36127, type: 3}
 --- !u!1001 &100100000
@@ -96,38 +94,6 @@ Prefab:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
+  m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 179120}
-  m_IsPrefabAsset: 1
---- !u!114 &114316730172003002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 179120}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 30
-    i1: 122
-    i2: 214
-    i3: 98
-    i4: 222
-    i5: 136
-    i6: 252
-    i7: 196
-    i8: 153
-    i9: 42
-    i10: 143
-    i11: 158
-    i12: 181
-    i13: 104
-    i14: 212
-    i15: 23
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
+  m_IsPrefabParent: 1

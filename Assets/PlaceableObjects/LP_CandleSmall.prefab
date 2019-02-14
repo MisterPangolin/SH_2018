@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 54660962074071698}
   - component: {fileID: 114725592342808096}
   - component: {fileID: 65704055870631726}
+  - component: {fileID: 114276898174345688}
+  - component: {fileID: 114708496538171946}
   m_Layer: 0
   m_Name: LP_CandleSmall
   m_TagString: Untagged
@@ -126,6 +128,59 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.15352044, y: 0.09670908, z: 0.15352044}
   m_Center: {x: 0, y: 0.048498813, z: 0}
+--- !u!114 &114276898174345688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1289250549751364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 48
+    i1: 95
+    i2: 209
+    i3: 62
+    i4: 45
+    i5: 176
+    i6: 52
+    i7: 181
+    i8: 139
+    i9: 171
+    i10: 56
+    i11: 40
+    i12: 133
+    i13: 184
+    i14: 205
+    i15: 239
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114708496538171946
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1289250549751364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
 --- !u!114 &114725592342808096
 MonoBehaviour:
   m_ObjectHideFlags: 1

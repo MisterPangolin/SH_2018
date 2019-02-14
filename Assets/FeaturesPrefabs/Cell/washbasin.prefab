@@ -71,7 +71,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4955823708011750}
   - component: {fileID: 114092169293955960}
-  - component: {fileID: 114293116711469554}
+  - component: {fileID: 114743767187924296}
+  - component: {fileID: 114896258758102554}
   m_Layer: 0
   m_Name: washbasin
   m_TagString: Untagged
@@ -286,7 +287,7 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 2
---- !u!114 &114293116711469554
+--- !u!114 &114743767187924296
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -318,3 +319,24 @@ MonoBehaviour:
     i15: 240
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!114 &114896258758102554
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1745008518149732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21

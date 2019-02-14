@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 54387689096511008}
   - component: {fileID: 114447574577157658}
   - component: {fileID: 65680632190153928}
+  - component: {fileID: 114275141158290684}
+  - component: {fileID: 114536094884206300}
   m_Layer: 0
   m_Name: KP_Lasagne
   m_TagString: Untagged
@@ -126,6 +128,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.38486198, y: 0.08733426, z: 0.26580402}
   m_Center: {x: -0.000000044703484, y: 0.041732036, z: -0.000000014901161}
+--- !u!114 &114275141158290684
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1468663648226260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 14
+    i1: 3
+    i2: 55
+    i3: 48
+    i4: 100
+    i5: 222
+    i6: 164
+    i7: 44
+    i8: 8
+    i9: 30
+    i10: 32
+    i11: 46
+    i12: 45
+    i13: 182
+    i14: 245
+    i15: 214
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114447574577157658
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -157,3 +191,24 @@ MonoBehaviour:
   hasDevice: 0
   device: {fileID: 0}
   category: 0
+--- !u!114 &114536094884206300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1468663648226260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05

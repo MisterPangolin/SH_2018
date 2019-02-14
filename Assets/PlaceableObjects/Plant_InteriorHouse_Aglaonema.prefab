@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 54651578628571886}
   - component: {fileID: 114939099506631996}
   - component: {fileID: 65160001179070188}
+  - component: {fileID: 114782313574320404}
+  - component: {fileID: 114017214559777222}
   m_Layer: 0
   m_Name: Plant_InteriorHouse_Aglaonema
   m_TagString: Untagged
@@ -126,6 +128,59 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.14079243, y: 0.0015295029, z: 0.1404563}
   m_Center: {x: 0.0023575367, y: 0.0006586075, z: -0.0009914935}
+--- !u!114 &114017214559777222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1705336241246846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
+--- !u!114 &114782313574320404
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1705336241246846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 77
+    i1: 123
+    i2: 89
+    i3: 230
+    i4: 157
+    i5: 218
+    i6: 100
+    i7: 2
+    i8: 41
+    i9: 202
+    i10: 183
+    i11: 117
+    i12: 143
+    i13: 14
+    i14: 231
+    i15: 186
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114939099506631996
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -146,3 +201,4 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: d28c957257f3d429bb8f8c74fea51a56, type: 3}
   hasDevice: 0
   device: {fileID: 0}
+  category: 0

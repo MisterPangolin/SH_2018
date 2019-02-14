@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 114381412783784928}
   - component: {fileID: 65598897267748018}
   - component: {fileID: 65643882030448066}
+  - component: {fileID: 114196447114371526}
+  - component: {fileID: 114102895564114582}
   m_Layer: 0
   m_Name: Teapot
   m_TagString: Untagged
@@ -126,6 +128,59 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.12299659, y: 0, z: 0.12521699}
   m_Center: {x: 0.0026408674, y: 0, z: -0.00021803379}
+--- !u!114 &114102895564114582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1085080750249558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
+--- !u!114 &114196447114371526
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1085080750249558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 12
+    i1: 74
+    i2: 228
+    i3: 218
+    i4: 129
+    i5: 151
+    i6: 36
+    i7: 14
+    i8: 251
+    i9: 21
+    i10: 92
+    i11: 172
+    i12: 1
+    i13: 60
+    i14: 198
+    i15: 220
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114381412783784928
 MonoBehaviour:
   m_ObjectHideFlags: 1

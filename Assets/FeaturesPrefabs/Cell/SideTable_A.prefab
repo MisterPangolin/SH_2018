@@ -57,7 +57,8 @@ GameObject:
   - component: {fileID: 23154518799150276}
   - component: {fileID: 65699997735657324}
   - component: {fileID: 114610207250055356}
-  - component: {fileID: 114546477649177260}
+  - component: {fileID: 114604045171878494}
+  - component: {fileID: 114194943500949824}
   m_Layer: 0
   m_Name: SideTable_A
   m_TagString: Untagged
@@ -214,7 +215,28 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.8519723, y: 0.7023442, z: 0.36747265}
   m_Center: {x: -0, y: 0.34997332, z: -0}
---- !u!114 &114546477649177260
+--- !u!114 &114194943500949824
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1978505566450470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
+--- !u!114 &114604045171878494
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

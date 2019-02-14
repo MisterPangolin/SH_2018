@@ -26,6 +26,8 @@ GameObject:
   - component: {fileID: 114167479428304534}
   - component: {fileID: 65245394257623010}
   - component: {fileID: 65690651671464266}
+  - component: {fileID: 114715194692011464}
+  - component: {fileID: 114027110200387892}
   m_Layer: 0
   m_Name: Lamp_Table
   m_TagString: Untagged
@@ -139,6 +141,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.2790709, y: 0.17100911, z: 0.27907097}
   m_Center: {x: -0.00000013113022, y: 0.31055698, z: 0.000000011920929}
+--- !u!114 &114027110200387892
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1540633593827962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
 --- !u!114 &114167479428304534
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -160,3 +183,35 @@ MonoBehaviour:
   hasDevice: 0
   device: {fileID: 0}
   category: 4
+--- !u!114 &114715194692011464
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1540633593827962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 35
+    i1: 143
+    i2: 169
+    i3: 156
+    i4: 82
+    i5: 22
+    i6: 84
+    i7: 223
+    i8: 185
+    i9: 42
+    i10: 134
+    i11: 230
+    i12: 207
+    i13: 147
+    i14: 63
+    i15: 131
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0

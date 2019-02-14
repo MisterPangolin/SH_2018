@@ -20,7 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4031870870462226}
   - component: {fileID: 114912288159895138}
-  - component: {fileID: 114121107799915612}
+  - component: {fileID: 114264032703044356}
+  - component: {fileID: 114049181406723484}
   m_Layer: 0
   m_Name: Shower
   m_TagString: Untagged
@@ -200,7 +201,28 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4278213, y: 2.6080146, z: 1.4128861}
   m_Center: {x: 0, y: 1.303379, z: 4.6305326e-15}
---- !u!114 &114121107799915612
+--- !u!114 &114049181406723484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1076223791106790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
+--- !u!114 &114264032703044356
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

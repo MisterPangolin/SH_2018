@@ -24,7 +24,8 @@ GameObject:
   - component: {fileID: 65570431146424140}
   - component: {fileID: 65389975049950212}
   - component: {fileID: 114782994873962224}
-  - component: {fileID: 114825414865700910}
+  - component: {fileID: 114822041511257854}
+  - component: {fileID: 114541171218774466}
   m_Layer: 0
   m_Name: KitchenChair_Wooden
   m_TagString: Untagged
@@ -111,6 +112,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.42970294, y: 0.9353711, z: 0.1}
   m_Center: {x: 0, y: 0.46667263, z: -0.19}
+--- !u!114 &114541171218774466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1979050812791454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
 --- !u!114 &114782994873962224
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -134,7 +156,7 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 1
---- !u!114 &114825414865700910
+--- !u!114 &114822041511257854
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

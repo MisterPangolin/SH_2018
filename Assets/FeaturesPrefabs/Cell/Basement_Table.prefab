@@ -23,7 +23,8 @@ GameObject:
   - component: {fileID: 23089078350643628}
   - component: {fileID: 65579952157489990}
   - component: {fileID: 114470069274555010}
-  - component: {fileID: 114148553680122728}
+  - component: {fileID: 114564392645293746}
+  - component: {fileID: 114286495741176424}
   m_Layer: 0
   m_Name: Basement_Table
   m_TagString: Untagged
@@ -155,7 +156,51 @@ MonoBehaviour:
   surface: {fileID: 65386745502677504}
   vertex: []
   yOffset: {x: 0, y: 0, z: 0}
---- !u!114 &114148553680122728
+--- !u!114 &114286495741176424
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1590774702956110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
+--- !u!114 &114470069274555010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1590774702956110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9a58f8a0a2474628b3e362677511239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  height: 0
+  xOffset: 0
+  zOffset: 0
+  featureType: 0
+  orientation: 2
+  baseRotation: {x: 0, y: 0, z: 0}
+  blocType: 3
+  sprite: {fileID: 21300000, guid: 843dc643e7ec94b1d98f0c7fc1209674, type: 3}
+  hasDevice: 0
+  device: {fileID: 0}
+  side: 0
+  category: 0
+--- !u!114 &114564392645293746
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -187,26 +232,3 @@ MonoBehaviour:
     i15: 142
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
---- !u!114 &114470069274555010
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1590774702956110}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9a58f8a0a2474628b3e362677511239, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  height: 0
-  xOffset: 0
-  zOffset: 0
-  featureType: 0
-  orientation: 2
-  baseRotation: {x: 0, y: 0, z: 0}
-  blocType: 3
-  sprite: {fileID: 21300000, guid: 843dc643e7ec94b1d98f0c7fc1209674, type: 3}
-  hasDevice: 0
-  device: {fileID: 0}
-  side: 0
-  category: 0

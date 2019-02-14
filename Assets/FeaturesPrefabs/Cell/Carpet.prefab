@@ -22,8 +22,8 @@ GameObject:
   - component: {fileID: 33188397190135662}
   - component: {fileID: 23866747645559154}
   - component: {fileID: 114941461033449496}
-  - component: {fileID: 65367151992983944}
-  - component: {fileID: 114364537626426072}
+  - component: {fileID: 114268389906914546}
+  - component: {fileID: 114782935872107488}
   m_Layer: 0
   m_Name: Carpet
   m_TagString: Floor
@@ -86,19 +86,7 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1524220118416906}
   m_Mesh: {fileID: 4300000, guid: 8f12198eebd4e204fa40a3db91221aeb, type: 3}
---- !u!65 &65367151992983944
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1524220118416906}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 19.047705, y: 30.047531, z: 0.18206361}
-  m_Center: {x: -0.00009059906, y: 0, z: 0.089262635}
---- !u!114 &114364537626426072
+--- !u!114 &114268389906914546
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,6 +118,27 @@ MonoBehaviour:
     i15: 69
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!114 &114782935872107488
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1524220118416906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
 --- !u!114 &114941461033449496
 MonoBehaviour:
   m_ObjectHideFlags: 1

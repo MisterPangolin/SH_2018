@@ -57,7 +57,8 @@ GameObject:
   - component: {fileID: 23976873422932928}
   - component: {fileID: 64846902746730814}
   - component: {fileID: 114715505668142878}
-  - component: {fileID: 114524003388844118}
+  - component: {fileID: 114135646903393168}
+  - component: {fileID: 114530061352105192}
   m_Layer: 0
   m_Name: ClosetPrefab
   m_TagString: Untagged
@@ -315,35 +316,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.76104707, y: 0.027679443, z: 0.6118467}
   m_Center: {x: 0.0014445186, y: 2.258709, z: 0.026737079}
---- !u!114 &114171538165135236
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1981069931926914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f693ded22c2fd4da38cd6e288d146488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  surface: {fileID: 65823673874290638}
-  vertex: []
-  yOffset: {x: 0, y: 0, z: 0}
---- !u!114 &114203833038351422
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1738901061338628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f693ded22c2fd4da38cd6e288d146488, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  surface: {fileID: 65318505579524926}
-  vertex: []
-  yOffset: {x: 0, y: 0, z: 0}
---- !u!114 &114524003388844118
+--- !u!114 &114135646903393168
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -375,6 +348,55 @@ MonoBehaviour:
     i15: 146
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!114 &114171538165135236
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1981069931926914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f693ded22c2fd4da38cd6e288d146488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surface: {fileID: 65823673874290638}
+  vertex: []
+  yOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &114203833038351422
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1738901061338628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f693ded22c2fd4da38cd6e288d146488, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  surface: {fileID: 65318505579524926}
+  vertex: []
+  yOffset: {x: 0, y: 0, z: 0}
+--- !u!114 &114530061352105192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1422810481743344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
 --- !u!114 &114678270215242098
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -23,9 +23,10 @@ GameObject:
   - component: {fileID: 23633745463597760}
   - component: {fileID: 64164265497836012}
   - component: {fileID: 114822130856601040}
-  - component: {fileID: 114405754676976194}
-  - component: {fileID: 114522338921017366}
-  - component: {fileID: 114964623458085388}
+  - component: {fileID: 114591679873511994}
+  - component: {fileID: 114222920858205872}
+  - component: {fileID: 114264580969126044}
+  - component: {fileID: 114638220691163826}
   m_Layer: 0
   m_Name: Couch_Fabric_2seat
   m_TagString: Untagged
@@ -102,7 +103,7 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 1caccefdbe3e05a45973d90dff3ce811, type: 3}
---- !u!114 &114405754676976194
+--- !u!114 &114222920858205872
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,26 +111,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1345490280806172}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 139d9d4b2f13449628b29942bdb5e881, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c472462f99559d48bb0aebe5228da8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  index: 0
-  objectName: "Canap\xE9 connect\xE9"
-  objectDescription: Des capteurs de poids dans le fauteuil permettent de mesurer
-    le poids du patient lorsqu'il s'asseoit dessus.
-  objectIndications: "Cet objet devrait \xEAtre coupl\xE9 avec un autre objet permettant
-    l'identification du patient."
-  colliders: []
-  isDestroyed: 0
-  cameraPlayer: {fileID: 0}
-  cameraOverview: {fileID: 0}
-  homeParameters:
-  - {fileID: 11400000, guid: 732b1d517289c4b1ba642d4d62e1c8cb, type: 2}
-  homePIndex: 
-  healthParameters:
-  - {fileID: 11400000, guid: c5ed6b079cdae4192a2ccc3eefc8351a, type: 2}
-  healthPIndex: 
---- !u!114 &114522338921017366
+--- !u!114 &114264580969126044
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,6 +146,50 @@ MonoBehaviour:
     i15: 77
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 0
+--- !u!114 &114591679873511994
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1345490280806172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateActionSetOnAttach: {fileID: 0}
+  hideHandOnAttach: 1
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  handFollowTransform: {fileID: 0}
+  handFollowTransformPosition: 1
+  handFollowTransformRotation: 1
+  highlightOnHover: 1
+  hideHighlight: []
+--- !u!114 &114638220691163826
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1345490280806172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
 --- !u!114 &114822130856601040
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -184,24 +213,3 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 0
---- !u!114 &114964623458085388
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1345490280806172}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TransformSyncMode: 1
-  m_SendInterval: 1
-  m_SyncRotationAxis: 7
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_VelocityThreshold: 0.0001
-  m_SnapThreshold: 5
-  m_InterpolateRotation: 1
-  m_InterpolateMovement: 1

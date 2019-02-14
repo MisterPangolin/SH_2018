@@ -72,7 +72,8 @@ GameObject:
   - component: {fileID: 4995992364227828}
   - component: {fileID: 114031597534636468}
   - component: {fileID: 65363384548567978}
-  - component: {fileID: 114089562358966726}
+  - component: {fileID: 114455679800106500}
+  - component: {fileID: 114358678566898484}
   m_Layer: 0
   m_Name: cabinet_2
   m_TagString: Untagged
@@ -369,7 +370,28 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 3
---- !u!114 &114089562358966726
+--- !u!114 &114358678566898484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1708155317903510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.11111111
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.1
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.01
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 7.21
+--- !u!114 &114455679800106500
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

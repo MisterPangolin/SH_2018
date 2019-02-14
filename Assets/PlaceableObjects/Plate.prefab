@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 114714101315919540}
   - component: {fileID: 65257756663036712}
   - component: {fileID: 65496391599373608}
+  - component: {fileID: 114681755046612674}
+  - component: {fileID: 114766813886798266}
   m_Layer: 0
   m_Name: Plate
   m_TagString: Untagged
@@ -126,6 +128,38 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.22501837, y: 0.0032527565, z: 0.21629825}
   m_Center: {x: -0.000000011920929, y: 0.0018615782, z: 0.000000011920929}
+--- !u!114 &114681755046612674
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1592706834927542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 255
+    i1: 73
+    i2: 126
+    i3: 136
+    i4: 193
+    i5: 171
+    i6: 20
+    i7: 43
+    i8: 104
+    i9: 166
+    i10: 141
+    i11: 197
+    i12: 75
+    i13: 30
+    i14: 112
+    i15: 240
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
 --- !u!114 &114714101315919540
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -147,3 +181,24 @@ MonoBehaviour:
   hasDevice: 0
   device: {fileID: 0}
   category: 1
+--- !u!114 &114766813886798266
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1592706834927542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05

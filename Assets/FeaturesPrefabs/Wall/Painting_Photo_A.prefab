@@ -23,7 +23,8 @@ GameObject:
   - component: {fileID: 23963895925016454}
   - component: {fileID: 65533370716598226}
   - component: {fileID: 114734612249340258}
-  - component: {fileID: 114770471918422608}
+  - component: {fileID: 114974953543014036}
+  - component: {fileID: 114642796030315408}
   m_Layer: 0
   m_Name: Painting_Photo_A
   m_TagString: Untagged
@@ -98,6 +99,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.26472023, y: 0.21292457, z: 0.012255723}
   m_Center: {x: 1.8125547e-10, y: 0.000000037252903, z: 0.0060819266}
+--- !u!114 &114642796030315408
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1150808264309364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
 --- !u!114 &114734612249340258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -121,7 +143,7 @@ MonoBehaviour:
   device: {fileID: 0}
   side: 0
   category: 6
---- !u!114 &114770471918422608
+--- !u!114 &114974953543014036
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}

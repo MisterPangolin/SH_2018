@@ -21,6 +21,8 @@ GameObject:
   - component: {fileID: 4092014300625642}
   - component: {fileID: 54952615434164400}
   - component: {fileID: 114019804420309520}
+  - component: {fileID: 114269803682779784}
+  - component: {fileID: 114003980168730968}
   m_Layer: 0
   m_Name: oximeter
   m_TagString: Untagged
@@ -231,6 +233,27 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 4.9571567, y: 1.9640445, z: 3.395005}
   m_Center: {x: 0.5271688, y: 0.00000021999747, z: -0.07139563}
+--- !u!114 &114003980168730968
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1274605839738724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 1
+  m_SendInterval: 0.06666667
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 0.7
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 2.05
 --- !u!114 &114019804420309520
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -252,3 +275,35 @@ MonoBehaviour:
   hasDevice: 0
   device: {fileID: 0}
   category: 5
+--- !u!114 &114269803682779784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1274605839738724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 247
+    i1: 192
+    i2: 52
+    i3: 192
+    i4: 24
+    i5: 219
+    i6: 244
+    i7: 12
+    i8: 25
+    i9: 166
+    i10: 176
+    i11: 101
+    i12: 61
+    i13: 29
+    i14: 5
+    i15: 35
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
